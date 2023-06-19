@@ -9,6 +9,12 @@ Problem page will have:
 	Pseudocode / written explanation of how to solve / things to remember / etc
 	Code in python and javascript
 
+
+
+
+
+
+
 prop will be LC problem #
 have database that contains: 
 	problem description
