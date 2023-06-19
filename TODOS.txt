@@ -1,0 +1,25 @@
+
+LC Guide:
+
+Main page will be list of questions, separated by category (copy neetcode problems and categories)
+
+
+Problem page will have:
+	LC problem
+	Pseudocode / written explanation of how to solve / things to remember / etc
+	Code in python and javascript
+
+prop will be LC problem #
+have database that contains: 
+	problem description
+	explanation
+	code
+
+e.g.
+
+LC = {
+  3: {
+	description: ,
+	explanation: ,
+	code: ,
+}
