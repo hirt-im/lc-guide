@@ -10,11 +10,11 @@ function App() {
   console.log(category);
 
   return (
-    <>
+    <div className='container'>
       <CategoriesBar categories={categories} setCategory={setCategory} category={category} />
       <ProblemList />
       <div>{category}</div>
-    </>
+    </div>
   )
 }
 

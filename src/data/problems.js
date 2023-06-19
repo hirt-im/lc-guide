@@ -4,42 +4,42 @@ export const problems =
 
         'Contains Duplicate': {
             id: 217,
-            difficulty: easy
+            difficulty: 'easy'
         },
 
         'Valid Anagram': {
             id: 242,
-            difficulty: easy
+            difficulty: 'easy'
         },
 
         'Two Sum': {
             id: 1,
-            difficulty: easy
+            difficulty: 'easy'
         },
 
         'Group Anagrams': {
             id: 49,
-            difficulty: medium
+            difficulty: 'medium'
         },
 
         'Top K Frequent Elements': {
             id: 347,
-            difficulty: medium
+            difficulty: 'medium'
         },
 
         'Product of Array Except Self': {
             id: 238,
-            difficulty: medium
+            difficulty: 'medium'
         },
 
         'Valid Sudoku': {
             id: 36,
-            difficulty: medium
+            difficulty: 'medium'
         },
 
         'Longest Consecutive Sequence': {
             id: 128,
-            difficulty: medium
+            difficulty: 'medium'
         }
     }
     // 'Two Pointers':
