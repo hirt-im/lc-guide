@@ -1,3 +1,5 @@
+import './CategoriesBar.css'
+
 export default function CategoriesBar(props){
     
     function handleClick(e){
