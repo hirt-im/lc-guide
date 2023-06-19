@@ -9,8 +9,15 @@ export default function CategoriesBar(props){
     return(
         <ul className='categories-bar'>
             {props.categories.map((category, index) => (
-                <li onClick={handleClick} key={index}>{category}</li>
+                <li 
+                    onClick={handleClick}
+                    key={index}
+                    className={props.category === category ? 'active' : ''}
+                >        
+                    {category}
+                </li>
             ))}
         </ul>
     );
 }
+

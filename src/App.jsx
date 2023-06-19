@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <CategoriesBar categories={categories} setCategory={setCategory} />
-      <div>Hi</div>
+      <CategoriesBar categories={categories} setCategory={setCategory} category={category} />
+      <div>{category}</div>
     </>
   )
 }
