@@ -11,7 +11,7 @@ ul.categories-bar{
     border: 1px solid black;
     border-radius: 5px;
     height: 5vh;
-    width: 15vw;
+    width: clamp(75px, 15vw, 200px);
     display: flex;
     align-items: center;
     justify-content: center;
