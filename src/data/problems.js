@@ -673,24 +673,77 @@ export const problems =
         }
     },
 
+    'Advanced Graphs':{
+        'Min Cost to Connect All Points': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+        
+        'Network Delay Time': {
+            id: 206,
+            difficulty: 'Medium'
+        },
 
+        'Cheapest Flights Within K Stops': {
+            id: 21,
+            difficulty: 'Medium'
+        },
 
-    
+        'Reconstruct Itinerary': {
+            id: 141,
+            difficulty: 'Hard'
+        },
 
+        'Swim In Rising Water': {
+            id: 21,
+            difficulty: 'Hard'
+        },
 
-    // 'Stack':
-    // 'Binary Search':
-    // 'Sliding Window':
-    // 'Linked List':
-    // 'Trees':
-    // 'Tries':
-    // 'Backtracking':
-    // 'Graphs':
-    // 'Dynamic Programming':
-    // '2D Dynamic Programming',
-    // 'Bit Manipulation',
-    // 'Intervals',
-    // 'Greedy',
-    // 'Advanced Graphs',
-    // 'Math & Geometry'
+        'Alien Dictionary': {
+            id: 141,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Math & Geometry':{
+        'Happy Number': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+        
+        'Plus One': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Rotate Image': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Spiral Matrix': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Set Matrix Zeroes': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Pow(x, n)': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Multiply Strings': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Detect Squares': {
+            id: 141,
+            difficulty: 'Medium'
+        }
+    },
 }
