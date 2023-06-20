@@ -504,6 +504,177 @@ export const problems =
         }
     },
 
+    '2D Dynamic Programming':{
+        'Unique Paths': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Longest Common Subsequence': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Best Time to Buy And Sell Stock With Cooldown': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Coin Change II': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Target Sum': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Interleaving String': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Longest Increasing Path In a Matrix': {
+            id: 206,
+            difficulty: 'Hard'
+        },
+
+        'Distinct Subsequences': {
+            id: 21,
+            difficulty: 'Hard'
+        },
+
+        'Edit Distance': {
+            id: 141,
+            difficulty: 'Hard'
+        },
+
+        'Burst Balloons': {
+            id: 141,
+            difficulty: 'Hard'
+        },
+
+        'Regular Expression Matching': {
+            id: 206,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Bit Manipulation':{
+        'Single Number': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Number of 1 Bits': {
+            id: 21,
+            difficulty: 'Easy'
+        },
+
+        'Counting Bits': {
+            id: 141,
+            difficulty: 'Easy'
+        },
+
+        'Reverse Bits': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Missing Number': {
+            id: 21,
+            difficulty: 'Easy'
+        },
+
+        'Sum of Two Integers': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Reverse Integer': {
+            id: 206,
+            difficulty: 'Medium'
+        }
+    },
+
+    'Intervals':{
+        'Meeting Rooms': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Insert Interval': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Merge Intervals': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Non Overlapping Intervals': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+
+        'Meeting Rooms II': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Minimum Interval to Include Each Query': {
+            id: 141,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Greedy':{
+        'Maximum Subarray': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+        
+        'Jump Game': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Jump Game II': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Gas Station': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Hand of Straights': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Merge Triplets to Form Target Triplet': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Partition Labels': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Valid Parenthesis String': {
+            id: 141,
+            difficulty: 'Medium'
+        }
+    },
+
+
+
     
 
 
