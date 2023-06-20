@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import CategoriesBar from './components/CategoriesBar'
 import ProblemList from './components/ProblemList'
-import { categories } from './data/categories'
+import { problems } from './data/problems'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='container'>
-      <CategoriesBar categories={categories} setCategory={setCategory} category={category} />
+      <CategoriesBar problems={problems} setCategory={setCategory} category={category} />
       {!category ? null : <ProblemList category={category} />}
     </div>
   )
