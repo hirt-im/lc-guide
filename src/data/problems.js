@@ -41,8 +41,71 @@ export const problems =
             id: 128,
             difficulty: 'Medium'
         }
+    },
+
+    'Two Pointers':{
+        'Valid Palindrome': {
+            id: 125,
+            difficulty: 'Easy'
+        },
+
+        'Two Sum II - Input Array Is Sorted': {
+            id: 167,
+            difficulty: 'Medium'
+        },
+
+        '3Sum': {
+            id: 15,
+            difficulty: 'Medium'
+        },
+
+        'Container With Most Water': {
+            id: 11,
+            difficulty: 'Medium'
+        },
+
+        'Trapping Rain Water': {
+            id: 42,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Stack':{
+        'Valid Parentheses': {
+            id: 20,
+            difficulty: 'Easy'
+        },
+
+        'Min Stack': {
+            id: 155,
+            difficulty: 'Medium'
+        },
+
+        'Evaluate Reverse Polish Notation': {
+            id: 150,
+            difficulty: 'Medium'
+        },
+
+        'Generate Parentheses': {
+            id: 22,
+            difficulty: 'Medium'
+        },
+
+        'Car Fleet': {
+            id: 853,
+            difficulty: 'Medium'
+        },
+
+        'Daily Temperatures': {
+            id: 739,
+            difficulty: 'Hard'
+        },
+
+        'Largest Rectangle In Histogram': {
+            id: 84,
+            difficulty: 'Hard'
+        }
     }
-    // 'Two Pointers':
     // 'Stack':
     // 'Binary Search':
     // 'Sliding Window':
