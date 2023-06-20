@@ -11,15 +11,14 @@ export default function ProblemList(props){
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Data 1</td>
-                    <td>Data 2</td>
-                </tr>
-                <tr>
-                    <td>Data 3</td>
-                    <td>Data 4</td>
-                </tr>
-            {/* Add more rows as needed */}
+                {Object.keys(problems[props.category]).map((key) => {
+                    return (
+                        <tr>
+                            <td>{key}</td>
+                            <td>{problems[props.category][key].difficulty}</td>
+                        </tr>
+                    )
+                })}
             </tbody>
         </table>
     );

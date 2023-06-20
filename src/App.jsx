@@ -12,8 +12,7 @@ function App() {
   return (
     <div className='container'>
       <CategoriesBar categories={categories} setCategory={setCategory} category={category} />
-      <ProblemList />
-      <div>{category}</div>
+      {!category ? null : <ProblemList category={category} />}
     </div>
   )
 }
