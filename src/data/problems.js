@@ -142,6 +142,38 @@ export const problems =
             id: 4,
             difficulty: 'Hard'
         }
+    },
+
+    'Sliding Window':{
+        'Best Time to Buy And Sell Stock': {
+            id: 121,
+            difficulty: 'Easy'
+        },
+
+        'Longest Substring Without Repeating Characters': {
+            id: 3,
+            difficulty: 'Medium'
+        },
+
+        'Longest Repeating Character Replacement': {
+            id: 424,
+            difficulty: 'Medium'
+        },
+
+        'Permutation In String': {
+            id: 567,
+            difficulty: 'Medium'
+        },
+
+        'Minimum Window Substring': {
+            id: 76,
+            difficulty: 'Hard'
+        },
+
+        'Sliding Window Maximum': {
+            id: 239,
+            difficulty: 'Hard'
+        }
     }
     // 'Stack':
     // 'Binary Search':
