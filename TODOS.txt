@@ -30,3 +30,11 @@ LC = {
 	code: 
   }
 }
+
+
+
+Future Features:
+1. Ability to star favorite problems
+2. Ability to check problems completed / understood
+3. Ability to clear all checked problems
+Just do this in localstorage so there is no need to sign up

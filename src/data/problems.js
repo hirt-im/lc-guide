@@ -105,6 +105,43 @@ export const problems =
             id: 84,
             difficulty: 'Hard'
         }
+    },
+
+    'Binary Search':{
+        'Binary Search': {
+            id: 704,
+            difficulty: 'Easy'
+        },
+
+        'Search a 2D Matrix': {
+            id: 74,
+            difficulty: 'Medium'
+        },
+
+        'Koko Eating Bananas': {
+            id: 875,
+            difficulty: 'Medium'
+        },
+
+        'Find Minimum In Rotated Sorted Array': {
+            id: 153,
+            difficulty: 'Medium'
+        },
+
+        'Search In Rotated Sorted Array': {
+            id: 33,
+            difficulty: 'Medium'
+        },
+
+        'Time Based Key Value Store': {
+            id: 981,
+            difficulty: 'Medium'
+        },
+
+        'Median of Two Sorted Arrays': {
+            id: 4,
+            difficulty: 'Hard'
+        }
     }
     // 'Stack':
     // 'Binary Search':
