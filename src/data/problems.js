@@ -231,6 +231,84 @@ export const problems =
             id: 25,
             difficulty: 'Hard'
         }
+    },
+
+    // stopped inputting id's here. edit them as you go through them
+    'Trees':{
+        'Invert Binary Tree': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Maximum Depth of Binary Tree': {
+            id: 21,
+            difficulty: 'Easy'
+        },
+
+        'Diameter of Binary Tree': {
+            id: 141,
+            difficulty: 'Easy'
+        },
+
+        'Balanced Binary Tree': {
+            id: 143,
+            difficulty: 'Easy'
+        },
+
+        'Same Tree': {
+            id: 19,
+            difficulty: 'Easy'
+        },
+
+        'Subtree of Another Tree': {
+            id: 143,
+            difficulty: 'Easy'
+        },
+
+        'Lowest Common Ancestor of a Binary Search Tree': {
+            id: 138,
+            difficulty: 'Medium'
+        },
+
+        'Binary Tree Level Order Traversal': {
+            id: 2,
+            difficulty: 'Medium'
+        },
+
+        'Binary Tree Right Side View': {
+            id: 287,
+            difficulty: 'Medium'
+        },
+
+        'Count Good Nodes In Binary Tree': {
+            id: 146,
+            difficulty: 'Medium'
+        },
+
+        'Validate Binary Search Tree': {
+            id: 23,
+            difficulty: 'Medium'
+        },
+
+        'Kth Smallest Element In a Bst': {
+            id: 25,
+            difficulty: 'Medium'
+        },
+
+        'Construct Binary Tree From Preorder And Inorder Traversal': {
+            id: 146,
+            difficulty: 'Medium'
+        },
+
+        'Binary Tree Maximum Path Sum': {
+            id: 23,
+            difficulty: 'Hard'
+        },
+
+        'Serialize And Deserialize Binary Tree': {
+            id: 25,
+            difficulty: 'Hard'
+        }
     }
     // 'Stack':
     // 'Binary Search':
