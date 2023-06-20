@@ -309,7 +309,204 @@ export const problems =
             id: 25,
             difficulty: 'Hard'
         }
-    }
+    },
+
+    'Tries':{
+        'Implement Trie Prefix Tree': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Design Add And Search Words Data Structure': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Word Search II': {
+            id: 141,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Backtracking':{
+        'Subsets': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Combination Sum': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Permutations': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Subsets II': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Combination Sum II': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Word Search': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Palindrome Partitioning': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Letter Combinations of a Phone Number': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'N Queens': {
+            id: 141,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Graphs':{
+        'Number of Islands': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Clone Graph': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Max Area of Island': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Pacific Atlantic Water Flow': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Surrounded Regions': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Rotting Oranges': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Walls And Gates': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Course Schedule': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Course Schedule II': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Redundant Connection': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Number of Connected Components In An Undirected Graph': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Graph Valid Tree': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Word Ladder': {
+            id: 141,
+            difficulty: 'Hard'
+        }
+    },
+
+    'Dynamic Programming':{
+        'Climbing Stairs': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Min Cost Climbing Stairs': {
+            id: 21,
+            difficulty: 'Easy'
+        },
+
+        'House Robber': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'House Robber II': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Longest Palindromic Substring': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Palindromic Substrings': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Decode Ways': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Coin Change': {
+            id: 21,
+            difficulty: 'Medium'
+        },
+
+        'Maximum Product Subarray': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Word Break': {
+            id: 141,
+            difficulty: 'Medium'
+        },
+
+        'Longest Increasing Subsequence': {
+            id: 206,
+            difficulty: 'Medium'
+        },
+
+        'Partition Equal Subset Sum': {
+            id: 21,
+            difficulty: 'Medium'
+        }
+    },
+
+    
+
+
     // 'Stack':
     // 'Binary Search':
     // 'Sliding Window':
