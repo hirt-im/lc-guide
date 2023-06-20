@@ -174,6 +174,63 @@ export const problems =
             id: 239,
             difficulty: 'Hard'
         }
+    },
+
+    'Linked List':{
+        'Reverse Linked List': {
+            id: 206,
+            difficulty: 'Easy'
+        },
+
+        'Merge Two Sorted Lists': {
+            id: 21,
+            difficulty: 'Easy'
+        },
+
+        'Linked List Cycle': {
+            id: 141,
+            difficulty: 'Easy'
+        },
+
+        'Reorder List': {
+            id: 143,
+            difficulty: 'Medium'
+        },
+
+        'Remove Nth Node From End of List': {
+            id: 19,
+            difficulty: 'Medium'
+        },
+
+        'Copy List With Random Pointer': {
+            id: 138,
+            difficulty: 'Medium'
+        },
+
+        'Add Two Numbers': {
+            id: 2,
+            difficulty: 'Medium'
+        },
+
+        'Find The Duplicate Number': {
+            id: 287,
+            difficulty: 'Medium'
+        },
+
+        'LRU Cache': {
+            id: 146,
+            difficulty: 'Medium'
+        },
+
+        'Merge K Sorted Lists': {
+            id: 23,
+            difficulty: 'Hard'
+        },
+
+        'Reverse Nodes In K Group': {
+            id: 25,
+            difficulty: 'Hard'
+        }
     }
     // 'Stack':
     // 'Binary Search':
