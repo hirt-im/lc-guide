@@ -1,22 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik&display=swap');
+
 ul.categories-bar{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-decoration: none;
     gap:5px;
-  }
-  
-  ul.categories-bar > li{
+}
+
+ul.categories-bar > li{
     list-style-type: none;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     height: 5vh;
     width: clamp(75px, 15vw, 200px);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  li.active{
-    background-color: cyan;
-  }
+li.active{
+    background-color: rgb(63, 63, 45);
+}
+
+li{
+    background-color: rgb(197, 189, 163);
+    color: white;
+    font-family: Rubik, sans-serif;
+    padding: 5px
+}
