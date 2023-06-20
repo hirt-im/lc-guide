@@ -27,5 +27,6 @@ LC = {
   3: {
 	description: ,
 	explanation: ,
-	code: ,
+	code: 
+  }
 }

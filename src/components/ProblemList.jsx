@@ -3,7 +3,7 @@ import { problems } from '../data/problems';
 
 export default function ProblemList(props){
     return(
-        <table>
+        <table className='problem-table'>
             <thead>
                 <tr>
                     <th>Problem</th>
