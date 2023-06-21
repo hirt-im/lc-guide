@@ -8,7 +8,7 @@ export default function ProblemList(props){
                 <thead>
                     <tr>
                         <th>Problem</th>
-                        <th>Difficulty</th>
+                        <th className='diff-head'>Difficulty</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -16,7 +16,7 @@ export default function ProblemList(props){
                         return (
                             <tr>
                                 <td>{key}</td>
-                                <td>{problems[props.category][key].difficulty}</td>
+                                <td className='diff-col'>{problems[props.category][key].difficulty}</td>
                             </tr>
                         )
                     })}

@@ -8,6 +8,8 @@
   border-radius: 8px;
   overflow: hidden;
   background-color: white;
+
+  /* table-layout: fixed; */
   
   /* position: fixed;
   top: 50%;
@@ -20,6 +22,15 @@
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
+}
+
+.problem-table .diff-col{
+  width: 25%;
+  text-align: center;
+}
+
+.problem-table .diff-head{
+  text-align: center;
 }
 
 .problem-table th {
