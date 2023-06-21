@@ -9,7 +9,7 @@ ul.categories-bar{
     /* position: fixed; */
 
     align-self: flex-start;
-
+    padding: 0;
 }
 
 ul.categories-bar > li{
