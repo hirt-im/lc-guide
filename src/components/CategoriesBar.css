@@ -10,6 +10,7 @@ ul.categories-bar{
 
     align-self: flex-start;
     padding: 0;
+    margin-bottom: 5px;
 }
 
 ul.categories-bar > li{
@@ -25,11 +26,14 @@ ul.categories-bar > li{
 
 li.active{
     background-color: rgb(63, 63, 45);
+    color: white;
 }
 
 li{
     background-color: rgb(197, 189, 163);
+    background-color: #F7F7F2;
     color: white;
+    color: black;
     font-family: Rubik, sans-serif;
     padding: 5px
 }

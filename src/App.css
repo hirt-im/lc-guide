@@ -9,6 +9,7 @@
 
 body {
   background-color: rgb(253, 239, 219);
+  background-color: #FF6B6B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 
   /* display: grid;
   grid-template-rows: 5fr 6fr; */
