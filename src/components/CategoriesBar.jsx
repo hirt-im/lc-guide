@@ -4,6 +4,7 @@ export default function CategoriesBar(props){
     
     function handleClick(e){
         props.setCategory(e.target.outerText);
+        props.setProblem(null);
     }
 
     return(
