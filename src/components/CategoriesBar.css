@@ -6,6 +6,8 @@ ul.categories-bar{
     justify-content: center;
     text-decoration: none;
     gap:5px;
+    position: fixed;
+    top: 0;
 }
 
 ul.categories-bar > li{
@@ -13,7 +15,7 @@ ul.categories-bar > li{
     /* border: 1px solid black; */
     border-radius: 5px;
     height: 5vh;
-    width: clamp(75px, 15vw, 200px);
+    width: clamp(75px, 10vw, 200px);
     display: flex;
     align-items: center;
     justify-content: center;
