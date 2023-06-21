@@ -6,13 +6,14 @@ import { problems } from './data/problems'
 
 
 function App() {
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState('Arrays & Hashing');
   console.log(category);
 
   return (
     <div className='container'>
       <CategoriesBar problems={problems} setCategory={setCategory} category={category} />
-      {!category ? null : <ProblemList category={category} />}
+      {/* {!category ? null : <ProblemList category={category} />} */}
+      <ProblemList category={category} />
     </div>
   )
 }

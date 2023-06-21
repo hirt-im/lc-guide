@@ -7,9 +7,9 @@ ul.categories-bar{
     text-decoration: none;
     gap:5px;
     /* position: fixed; */
-    top: 0;
 
     align-self: flex-start;
+
 }
 
 ul.categories-bar > li{
