@@ -3,7 +3,7 @@ import './App.css'
 import CategoriesBar from './components/CategoriesBar'
 import ProblemList from './components/ProblemList'
 import { problems } from './data/problems'
-import ProblemInfo from './components/ProblemInfo'
+import ShowProblem from './components/ShowProblem'
 
 
 function App() {
@@ -13,14 +13,18 @@ function App() {
 
   return (
     <div className='container'>
-      <CategoriesBar problems={problems} setCategory={setCategory} category={category} setProblem={setProblem} />
-      {/* {!category ? null : <ProblemList category={category} />} */}
+      <CategoriesBar 
+        problems={problems} 
+        setCategory={setCategory} 
+        category={category} 
+        setProblem={setProblem} 
+      />
+      
       {problem == null ? 
         <ProblemList category={category} setProblem={setProblem} /> 
         : 
-        <ProblemInfo category={category} problem={problem}  />
+        <ShowProblem category={category} problem={problem}  />
       }
-      {/* // <ProblemList category={category} /> */}
     </div>
   )
 }
