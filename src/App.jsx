@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import CategoriesBar from './components/CategoriesBar'
-import ProblemList from './components/ProblemList'
+import ProblemTable from './components/ProblemTable'
 import { problems } from './data/problems'
 import ShowProblem from './components/ShowProblem'
 
@@ -21,7 +21,7 @@ function App() {
       />
       
       {problem == null ? 
-        <ProblemList category={category} setProblem={setProblem} /> 
+        <ProblemTable category={category} setProblem={setProblem} /> 
         : 
         <ShowProblem category={category} problem={problem}  />
       }
