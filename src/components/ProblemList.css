@@ -1,10 +1,14 @@
+:root {
+  --table-header-color: rgb(141, 255, 96);
+}
+
 .problem-table {
   width: 75%;
   border-collapse: collapse;
   font-size: 14px;
   font-family: Arial, sans-serif;
   /* margin-top: 20px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 8px;
   overflow: hidden;
   background-color: white;
@@ -61,4 +65,8 @@
 
 .problem-column{
   cursor: pointer;
+}
+
+.problem-table .diff-head, .problem-table .problem-head {
+  background-color: var(--table-header-color);
 }

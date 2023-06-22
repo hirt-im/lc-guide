@@ -12,7 +12,7 @@ export default function ProblemList(props){
             <table className='problem-table'>
                 <thead>
                     <tr>
-                        <th>Problem</th>
+                        <th className='problem-head'>Problem</th>
                         <th className='diff-head'>Difficulty</th>
                     </tr>
                 </thead>
