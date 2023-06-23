@@ -3705,12 +3705,12 @@ function addProperties(){
       if(problems.hasOwnProperty(category)){
       //  console.log(category);
 
-       let test = Object.keys(problems[category]);
+       let problemList = Object.keys(problems[category]);
       //  console.log(test);
        for (let i = 0; i < test.length; i++){
-          console.log(problems[category][test[i]])
-          problems[category][test[i]].favorited = false;
-          problems[category][test[i]].checked = false;
+          console.log(problems[category][problemList[i]])
+          problems[category][problemList[i]].favorited = false;
+          problems[category][problemList[i]].checked = false;
         }
        }
       }
@@ -3718,29 +3718,3 @@ function addProperties(){
 
     }
 
-
-
-  function correctURL(){
-    for (let category in problems){
-      if(problems.hasOwnProperty(category)){
-      //  console.log(category);
-
-       let test = Object.keys(problems[category]);
-      //  console.log(test);
-       for (let i = 0; i < test.length; i++){
-          // console.log(problems[category][test[i]])
-          // let name = problems[category][test[i]];
-          let name = test[i];
-          console.log(name);
-
-          let newName = name.split(" ").join("-").split("(").join("").split(")").join("");
-
-          console.log(newName);
-          problems[category][test[i]].url = 'https://leetcode.com/problems/' + newName;
-
-          }
-        }
-       }
-    console.log(problems);
-
-      }
