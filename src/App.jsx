@@ -23,7 +23,7 @@ function App() {
       {problem == null ? 
         <ProblemTable category={category} setProblem={setProblem} /> 
         : 
-        <ShowProblem category={category} problem={problem}  />
+        <ShowProblem category={category} problem={problem} setProblem={setProblem}  />
       }
     </div>
   )
