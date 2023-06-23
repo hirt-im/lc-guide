@@ -45,7 +45,15 @@ ul.categories-bar > li{
 li.active, li:hover{
     background-color: rgb(63, 63, 45);
     background-color: var(--blue);
+    background-color: rgb(30,30,30);
     color: white;
+
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+li:active{
+    color: rgb(30,30,30);
 }
 
 
