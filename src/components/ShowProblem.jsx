@@ -1,5 +1,11 @@
 import { problems } from "../data/problems";
+// import { AiOutlineStar } from 'react-icons/fa'
+import { FaStar } from 'react-icons/fa';
+import { IoArrowBack } from 'react-icons/io5'
+
 import './ShowProblem.css';
+
+
 
 export default function ShowProblem(props){
     let problem = problems[props.category][props.problem]
@@ -11,10 +17,15 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
         props.setProblem(null);
     }
 
+
     return (
         <div className='show-problem-container'>
-            <div className='back-button' onClick={goBack}>Back</div>
-            <div className='star-container'>Star</div>
+            <div className='back-button' onClick={goBack}>
+                <IoArrowBack size="3vh" />
+            </div>
+            <div className='star-container'>
+                <FaStar size="2.3vh" />
+            </div>
             <h1>{problemName}</h1>
             <h4>{problem.difficulty}</h4>
             <p>{lorem}</p>
