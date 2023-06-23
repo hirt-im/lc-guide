@@ -14,6 +14,7 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
     return (
         <div className='show-problem-container'>
             <div className='back-button' onClick={goBack}>Back</div>
+            <div className='star-container'>Star</div>
             <h1>{problemName}</h1>
             <h4>{problem.difficulty}</h4>
             <p>{lorem}</p>
