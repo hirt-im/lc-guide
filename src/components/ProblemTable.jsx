@@ -10,12 +10,12 @@ export default function ProblemTable(props){
     return(
         <div className='table-container'>
             <table className='problem-table'>
-                <thead>
+                {/* <thead>
                     <tr>
                         <th className='problem-head'>Problem</th>
-                        {/* <th className='diff-head'>Difficulty</th> */}
+                        <th className='diff-head'>Difficulty</th>
                     </tr>
-                </thead>
+                </thead> */}
                 <tbody>
                     {Object.keys(problems[props.category]).map((key) => {
                         return (
