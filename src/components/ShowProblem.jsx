@@ -26,8 +26,7 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
             <div className='star-container'>
                 <FaStar size="2.3vh" />
             </div>
-            <h1>{problemName}</h1>
-            <h4>{problem.difficulty}</h4>
+            <h1><a href={problem.url} target="_blank">{problemName}</a></h1>
             <p>{lorem}</p>
             <p>{lorem}</p>
             <p>{lorem}</p>

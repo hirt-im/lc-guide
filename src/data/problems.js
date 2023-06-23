@@ -748,55 +748,952 @@
 //     },
 // }
 
+// export const problems = {
+//     "Arrays & Hashing": {
+//         "Contains Duplicate": {
+//             "id": 217,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Valid Anagram": {
+//             "id": 242,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Two Sum": {
+//             "id": 1,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Group Anagrams": {
+//             "id": 49,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Top K Frequent Elements": {
+//             "id": 347,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Product of Array Except Self": {
+//             "id": 238,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Valid Sudoku": {
+//             "id": 36,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Consecutive Sequence": {
+//             "id": 128,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Two Pointers": {
+//         "Valid Palindrome": {
+//             "id": 125,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Two Sum II - Input Array Is Sorted": {
+//             "id": 167,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "3Sum": {
+//             "id": 15,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Container With Most Water": {
+//             "id": 11,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Trapping Rain Water": {
+//             "id": 42,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Stack": {
+//         "Valid Parentheses": {
+//             "id": 20,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Min Stack": {
+//             "id": 155,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Evaluate Reverse Polish Notation": {
+//             "id": 150,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Generate Parentheses": {
+//             "id": 22,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Car Fleet": {
+//             "id": 853,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Daily Temperatures": {
+//             "id": 739,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Largest Rectangle In Histogram": {
+//             "id": 84,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Binary Search": {
+//         "Binary Search": {
+//             "id": 704,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Search a 2D Matrix": {
+//             "id": 74,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Koko Eating Bananas": {
+//             "id": 875,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Find Minimum In Rotated Sorted Array": {
+//             "id": 153,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Search In Rotated Sorted Array": {
+//             "id": 33,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Time Based Key Value Store": {
+//             "id": 981,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Median of Two Sorted Arrays": {
+//             "id": 4,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Sliding Window": {
+//         "Best Time to Buy And Sell Stock": {
+//             "id": 121,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Substring Without Repeating Characters": {
+//             "id": 3,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Repeating Character Replacement": {
+//             "id": 424,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Permutation In String": {
+//             "id": 567,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Minimum Window Substring": {
+//             "id": 76,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Sliding Window Maximum": {
+//             "id": 239,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Linked List": {
+//         "Reverse Linked List": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Merge Two Sorted Lists": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Linked List Cycle": {
+//             "id": 141,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Reorder List": {
+//             "id": 143,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Remove Nth Node From End of List": {
+//             "id": 19,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Copy List With Random Pointer": {
+//             "id": 138,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Add Two Numbers": {
+//             "id": 2,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Find The Duplicate Number": {
+//             "id": 287,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "LRU Cache": {
+//             "id": 146,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Merge K Sorted Lists": {
+//             "id": 23,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Reverse Nodes In K Group": {
+//             "id": 25,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Trees": {
+//         "Invert Binary Tree": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Maximum Depth of Binary Tree": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Diameter of Binary Tree": {
+//             "id": 141,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Balanced Binary Tree": {
+//             "id": 143,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Same Tree": {
+//             "id": 19,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Subtree of Another Tree": {
+//             "id": 143,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Lowest Common Ancestor of a Binary Search Tree": {
+//             "id": 138,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Binary Tree Level Order Traversal": {
+//             "id": 2,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Binary Tree Right Side View": {
+//             "id": 287,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Count Good Nodes In Binary Tree": {
+//             "id": 146,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Validate Binary Search Tree": {
+//             "id": 23,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Kth Smallest Element In a Bst": {
+//             "id": 25,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Construct Binary Tree From Preorder And Inorder Traversal": {
+//             "id": 146,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Binary Tree Maximum Path Sum": {
+//             "id": 23,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Serialize And Deserialize Binary Tree": {
+//             "id": 25,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Tries": {
+//         "Implement Trie Prefix Tree": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Design Add And Search Words Data Structure": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Word Search II": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Backtracking": {
+//         "Subsets": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Combination Sum": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Permutations": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Subsets II": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Combination Sum II": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Word Search": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Palindrome Partitioning": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Letter Combinations of a Phone Number": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "N Queens": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Graphs": {
+//         "Number of Islands": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Clone Graph": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Max Area of Island": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Pacific Atlantic Water Flow": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Surrounded Regions": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Rotting Oranges": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Walls And Gates": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Course Schedule": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Course Schedule II": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Redundant Connection": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Number of Connected Components In An Undirected Graph": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Graph Valid Tree": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Word Ladder": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Dynamic Programming": {
+//         "Climbing Stairs": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Min Cost Climbing Stairs": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "House Robber": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "House Robber II": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Palindromic Substring": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Palindromic Substrings": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Decode Ways": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Coin Change": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Maximum Product Subarray": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Word Break": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Increasing Subsequence": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Partition Equal Subset Sum": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "2D Dynamic Programming": {
+//         "Unique Paths": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Common Subsequence": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Best Time to Buy And Sell Stock With Cooldown": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Coin Change II": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Target Sum": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Interleaving String": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Longest Increasing Path In a Matrix": {
+//             "id": 206,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Distinct Subsequences": {
+//             "id": 21,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Edit Distance": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Burst Balloons": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Regular Expression Matching": {
+//             "id": 206,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Bit Manipulation": {
+//         "Single Number": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Number of 1 Bits": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Counting Bits": {
+//             "id": 141,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Reverse Bits": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Missing Number": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Sum of Two Integers": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Reverse Integer": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Intervals": {
+//         "Meeting Rooms": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Insert Interval": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Merge Intervals": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Non Overlapping Intervals": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Meeting Rooms II": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Minimum Interval to Include Each Query": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Greedy": {
+//         "Maximum Subarray": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Jump Game": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Jump Game II": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Gas Station": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Hand of Straights": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Merge Triplets to Form Target Triplet": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Partition Labels": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Valid Parenthesis String": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Advanced Graphs": {
+//         "Min Cost to Connect All Points": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Network Delay Time": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Cheapest Flights Within K Stops": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Reconstruct Itinerary": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Swim In Rising Water": {
+//             "id": 21,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Alien Dictionary": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     },
+//     "Math & Geometry": {
+//         "Happy Number": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Plus One": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Rotate Image": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Spiral Matrix": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Set Matrix Zeroes": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Pow(x, n)": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Multiply Strings": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         },
+//         "Detect Squares": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false
+//         }
+//     }
+// }
+
 export const problems = {
     "Arrays & Hashing": {
         "Contains Duplicate": {
             "id": 217,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/217"
         },
         "Valid Anagram": {
             "id": 242,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/242"
         },
         "Two Sum": {
             "id": 1,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/1"
         },
         "Group Anagrams": {
             "id": 49,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/49"
         },
         "Top K Frequent Elements": {
             "id": 347,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/347"
         },
         "Product of Array Except Self": {
             "id": 238,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/238"
         },
         "Valid Sudoku": {
             "id": 36,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/36"
         },
         "Longest Consecutive Sequence": {
             "id": 128,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/128"
         }
     },
     "Two Pointers": {
@@ -804,31 +1701,36 @@ export const problems = {
             "id": 125,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/125"
         },
         "Two Sum II - Input Array Is Sorted": {
             "id": 167,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/167"
         },
         "3Sum": {
             "id": 15,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/15"
         },
         "Container With Most Water": {
             "id": 11,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/11"
         },
         "Trapping Rain Water": {
             "id": 42,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/42"
         }
     },
     "Stack": {
@@ -836,43 +1738,50 @@ export const problems = {
             "id": 20,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/20"
         },
         "Min Stack": {
             "id": 155,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/155"
         },
         "Evaluate Reverse Polish Notation": {
             "id": 150,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/150"
         },
         "Generate Parentheses": {
             "id": 22,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/22"
         },
         "Car Fleet": {
             "id": 853,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/853"
         },
         "Daily Temperatures": {
             "id": 739,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/739"
         },
         "Largest Rectangle In Histogram": {
             "id": 84,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/84"
         }
     },
     "Binary Search": {
@@ -880,43 +1789,50 @@ export const problems = {
             "id": 704,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/704"
         },
         "Search a 2D Matrix": {
             "id": 74,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/74"
         },
         "Koko Eating Bananas": {
             "id": 875,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/875"
         },
         "Find Minimum In Rotated Sorted Array": {
             "id": 153,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/153"
         },
         "Search In Rotated Sorted Array": {
             "id": 33,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/33"
         },
         "Time Based Key Value Store": {
             "id": 981,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/981"
         },
         "Median of Two Sorted Arrays": {
             "id": 4,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/4"
         }
     },
     "Sliding Window": {
@@ -924,37 +1840,43 @@ export const problems = {
             "id": 121,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/121"
         },
         "Longest Substring Without Repeating Characters": {
             "id": 3,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/3"
         },
         "Longest Repeating Character Replacement": {
             "id": 424,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/424"
         },
         "Permutation In String": {
             "id": 567,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/567"
         },
         "Minimum Window Substring": {
             "id": 76,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/76"
         },
         "Sliding Window Maximum": {
             "id": 239,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/239"
         }
     },
     "Linked List": {
@@ -962,67 +1884,78 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Merge Two Sorted Lists": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Linked List Cycle": {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Reorder List": {
             "id": 143,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/143"
         },
         "Remove Nth Node From End of List": {
             "id": 19,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/19"
         },
         "Copy List With Random Pointer": {
             "id": 138,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/138"
         },
         "Add Two Numbers": {
             "id": 2,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/2"
         },
         "Find The Duplicate Number": {
             "id": 287,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/287"
         },
         "LRU Cache": {
             "id": 146,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/146"
         },
         "Merge K Sorted Lists": {
             "id": 23,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/23"
         },
         "Reverse Nodes In K Group": {
             "id": 25,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/25"
         }
     },
     "Trees": {
@@ -1030,91 +1963,106 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Maximum Depth of Binary Tree": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Diameter of Binary Tree": {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Balanced Binary Tree": {
             "id": 143,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/143"
         },
         "Same Tree": {
             "id": 19,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/19"
         },
         "Subtree of Another Tree": {
             "id": 143,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/143"
         },
         "Lowest Common Ancestor of a Binary Search Tree": {
             "id": 138,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/138"
         },
         "Binary Tree Level Order Traversal": {
             "id": 2,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/2"
         },
         "Binary Tree Right Side View": {
             "id": 287,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/287"
         },
         "Count Good Nodes In Binary Tree": {
             "id": 146,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/146"
         },
         "Validate Binary Search Tree": {
             "id": 23,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/23"
         },
         "Kth Smallest Element In a Bst": {
             "id": 25,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/25"
         },
         "Construct Binary Tree From Preorder And Inorder Traversal": {
             "id": 146,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/146"
         },
         "Binary Tree Maximum Path Sum": {
             "id": 23,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/23"
         },
         "Serialize And Deserialize Binary Tree": {
             "id": 25,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/25"
         }
     },
     "Tries": {
@@ -1122,19 +2070,22 @@ export const problems = {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Design Add And Search Words Data Structure": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Word Search II": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     },
     "Backtracking": {
@@ -1142,55 +2093,64 @@ export const problems = {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Combination Sum": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Permutations": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Subsets II": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Combination Sum II": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Word Search": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Palindrome Partitioning": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Letter Combinations of a Phone Number": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "N Queens": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     },
     "Graphs": {
@@ -1198,79 +2158,92 @@ export const problems = {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Clone Graph": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Max Area of Island": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Pacific Atlantic Water Flow": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Surrounded Regions": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Rotting Oranges": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Walls And Gates": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Course Schedule": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Course Schedule II": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Redundant Connection": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Number of Connected Components In An Undirected Graph": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Graph Valid Tree": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Word Ladder": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     },
     "Dynamic Programming": {
@@ -1278,73 +2251,85 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Min Cost Climbing Stairs": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "House Robber": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "House Robber II": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Longest Palindromic Substring": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Palindromic Substrings": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Decode Ways": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Coin Change": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Maximum Product Subarray": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Word Break": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Longest Increasing Subsequence": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Partition Equal Subset Sum": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         }
     },
     "2D Dynamic Programming": {
@@ -1352,67 +2337,78 @@ export const problems = {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Longest Common Subsequence": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Best Time to Buy And Sell Stock With Cooldown": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Coin Change II": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Target Sum": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Interleaving String": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Longest Increasing Path In a Matrix": {
             "id": 206,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Distinct Subsequences": {
             "id": 21,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Edit Distance": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Burst Balloons": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Regular Expression Matching": {
             "id": 206,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         }
     },
     "Bit Manipulation": {
@@ -1420,43 +2416,50 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Number of 1 Bits": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Counting Bits": {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Reverse Bits": {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Missing Number": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Sum of Two Integers": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Reverse Integer": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         }
     },
     "Intervals": {
@@ -1464,37 +2467,43 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Insert Interval": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Merge Intervals": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Non Overlapping Intervals": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Meeting Rooms II": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Minimum Interval to Include Each Query": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     },
     "Greedy": {
@@ -1502,49 +2511,57 @@ export const problems = {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Jump Game": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Jump Game II": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Gas Station": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Hand of Straights": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Merge Triplets to Form Target Triplet": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Partition Labels": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Valid Parenthesis String": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     },
     "Advanced Graphs": {
@@ -1552,37 +2569,43 @@ export const problems = {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Network Delay Time": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Cheapest Flights Within K Stops": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Reconstruct Itinerary": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Swim In Rising Water": {
             "id": 21,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Alien Dictionary": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     },
     "Math & Geometry": {
@@ -1590,49 +2613,57 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Plus One": {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/206"
         },
         "Rotate Image": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Spiral Matrix": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Set Matrix Zeroes": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/21"
         },
         "Pow(x, n)": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Multiply Strings": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         },
         "Detect Squares": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
-            "checked": false
+            "checked": false,
+            "url": "https://lcid.cc/141"
         }
     }
 }

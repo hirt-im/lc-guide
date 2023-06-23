@@ -31,6 +31,27 @@ function App() {
 
     }
 
+    function url(){
+      for (let category in problems){
+        if(problems.hasOwnProperty(category)){
+        //  console.log(category);
+  
+         let test = Object.keys(problems[category]);
+        //  console.log(test);
+         for (let i = 0; i < test.length; i++){
+            // console.log(problems[category][test[i]])
+            let id = problems[category][test[i]].id;
+            console.log(id);
+            problems[category][test[i]].url = 'https://lcid.cc/' + id.toString();
+          }
+         }
+        }
+      console.log(problems);
+  
+      }
+
+      url();
+
 
   
 
