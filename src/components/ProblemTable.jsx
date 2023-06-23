@@ -23,9 +23,14 @@ export default function ProblemTable(props){
     }
 
     function checkProblem(e){
-        return;
-    }
+        let problemName = e.target.parentNode.parentNode.previousElementSibling.innerText;
+        let problem = props.problemSet[props.category][problemName];
+        problem.checked = !problem.checked;
 
+        let updatedProblemSet = {...props.problemSet};
+        props.setProblemSet(updatedProblemSet);
+        localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
+    }
 
 
     return(
@@ -51,7 +56,7 @@ export default function ProblemTable(props){
                                 </td>
 
                                 <td className='check-column' onClick={checkProblem} style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <BsFillCheckSquareFill className='check-icon'/>
+                                    <BsFillCheckSquareFill className='check-icon' color={(props.problemSet[props.category][key].checked ? 'green' : null)}/>
                                 </td>
                                 {/* <td className='diff-col'>{props.problemSet[props.category][key].difficulty}</td> */}
                             </tr>
