@@ -56,7 +56,7 @@ export default function ProblemTable(props){
                                 </td>
 
                                 <td className='check-column' onClick={checkProblem} style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <BsFillCheckSquareFill className='check-icon' color={(props.problemSet[props.category][key].checked ? 'green' : null)}/>
+                                    <BsFillCheckSquareFill className='check-icon' color={(props.problemSet[props.category][key].checked ? 'rgb(136, 221, 26)' : null)}/>
                                 </td>
                                 {/* <td className='diff-col'>{props.problemSet[props.category][key].difficulty}</td> */}
                             </tr>
