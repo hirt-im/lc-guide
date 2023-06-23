@@ -11,6 +11,30 @@ function App() {
   const [problem, setProblem] = useState(null)
   console.log(category);
 
+
+  function addProperties(){
+    for (let category in problems){
+      if(problems.hasOwnProperty(category)){
+      //  console.log(category);
+
+       let test = Object.keys(problems[category]);
+      //  console.log(test);
+       for (let i = 0; i < test.length; i++){
+          console.log(problems[category][test[i]])
+          problems[category][test[i]].favorited = false;
+          problems[category][test[i]].checked = false;
+        }
+       }
+      }
+    console.log(problems);
+
+    }
+
+
+  
+
+  addProperties()
+
   return (
     <div className='container'>
       <CategoriesBar 
