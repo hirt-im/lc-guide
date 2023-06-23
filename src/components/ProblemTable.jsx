@@ -1,5 +1,5 @@
 import './ProblemTable.css';
-import { problems } from '../data/problems';
+// import { problems } from '../data/problems';
 import { FaStar } from 'react-icons/fa';
 import { BsFillCheckSquareFill } from 'react-icons/bs';
 
@@ -13,7 +13,11 @@ export default function ProblemTable(props){
     }
 
     function favoriteProblem(e){
-        return;
+        let problemName = e.target.parentNode.parentNode.nextElementSibling.innerText;
+        let problem = props.problemSet[props.category][problemName];
+        problem.favorited = !problem.favorited;
+
+        props.setProblemSet({...props.problemSet});
     }
 
     function checkProblem(e){
@@ -32,22 +36,22 @@ export default function ProblemTable(props){
                     </tr>
                 </thead> */}
                 <tbody>
-                    {Object.keys(problems[props.category]).map((key) => {
+                    {Object.keys(props.problemSet[props.category]).map((key) => {
                         return (
-                            // <tr className={problems[props.category][key].difficulty}>
+                            // <tr className={props.problemSet[props.category][key].difficulty}>
                             <tr>
-                                <td className='fav-column' onClick={favoriteProblem} style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <FaStar className='fav-icon' />
+                                <td className='fav-column' style={{ textAlign: 'center', verticalAlign: 'middle' }} >
+                                    <FaStar className='fav-icon' onClick={favoriteProblem} color={(props.problemSet[props.category][key].favorited ? 'yellow' : null)} />
                                 </td>
 
-                                <td className={problems[props.category][key].difficulty + ' ' + 'problem-column'} onClick={selectProblem}>
+                                <td className={props.problemSet[props.category][key].difficulty + ' ' + 'problem-column'} onClick={selectProblem}>
                                     {key}
                                 </td>
 
                                 <td className='check-column' onClick={checkProblem} style={{ textAlign: 'center', verticalAlign: 'middle' }} >
                                     <BsFillCheckSquareFill className='check-icon'/>
                                 </td>
-                                {/* <td className='diff-col'>{problems[props.category][key].difficulty}</td> */}
+                                {/* <td className='diff-col'>{props.problemSet[props.category][key].difficulty}</td> */}
                             </tr>
                         )
                     })}

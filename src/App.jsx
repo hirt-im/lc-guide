@@ -9,6 +9,7 @@ import ShowProblem from './components/ShowProblem'
 function App() {
   const [category, setCategory] = useState('Arrays & Hashing');
   const [problem, setProblem] = useState(null)
+  const [problemSet, setProblemSet] = useState(problems);
   console.log(category);
 
 
@@ -33,7 +34,7 @@ function App() {
 
   
 
-  addProperties()
+  // addProperties()
 
   return (
     <div className='container'>
@@ -45,7 +46,7 @@ function App() {
       />
       
       {problem == null ? 
-        <ProblemTable category={category} setProblem={setProblem} /> 
+        <ProblemTable category={category} setProblem={setProblem} problemSet={problemSet} setProblemSet={setProblemSet} /> 
         : 
         <ShowProblem category={category} problem={problem} setProblem={setProblem}  />
       }
