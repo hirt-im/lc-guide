@@ -9,7 +9,7 @@ import ShowProblem from './components/ShowProblem'
 function App() {
   const [category, setCategory] = useState('Arrays & Hashing');
   const [problem, setProblem] = useState(null)
-  const [problemSet, setProblemSet] = useState(problems);
+  const [problemSet, setProblemSet] = useState((localStorage.getItem('problemSet') == null ? problems : JSON.parse(localStorage.getItem('problemSet'))));
   console.log(category);
 
 
