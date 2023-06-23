@@ -121,3 +121,6 @@
   cursor: pointer;
 }
 
+.problem-table .fav-column, .problem-table .check-column{
+  width: 7%;
+}
