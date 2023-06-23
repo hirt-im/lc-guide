@@ -1,4 +1,5 @@
-1. Add correct IDs to problems
+1. Fix styling issues
+2. Improve styling of CategoryBar
 
 
 
