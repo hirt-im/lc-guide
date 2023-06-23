@@ -13,7 +13,7 @@ export default function ProblemTable(props){
                 <thead>
                     <tr>
                         <th className='problem-head'>Problem</th>
-                        <th className='diff-head'>Difficulty</th>
+                        {/* <th className='diff-head'>Difficulty</th> */}
                     </tr>
                 </thead>
                 <tbody>
@@ -21,7 +21,7 @@ export default function ProblemTable(props){
                         return (
                             <tr className={problems[props.category][key].difficulty}>
                                 <td className='problem-column' onClick={selectProblem}>{key}</td>
-                                <td className='diff-col'>{problems[props.category][key].difficulty}</td>
+                                {/* <td className='diff-col'>{problems[props.category][key].difficulty}</td> */}
                             </tr>
                         )
                     })}

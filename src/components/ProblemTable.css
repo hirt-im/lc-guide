@@ -51,9 +51,9 @@
   background-color: #f9f9f9;
 } */
 
-.problem-table tr:hover {
+/* .problem-table tr:hover {
   background-color: #f5f5f5;
-}
+} */
 
 .problem-table td {
   vertical-align: middle;
@@ -80,27 +80,34 @@
   color: white;
 }
 
-.Medium, .Easy, .Hard{
-  -webkit-text-stroke: 1px black;
-}
-
-.Medium{
-  color: yellow;
-}
-
-.Easy{
-  color: rgb(52, 236, 52);
-}
-
-.Hard{
-  color: red;
-}
-
-.problem-table tr{
+/* .problem-table tr{
   background-color: black;
 }
 
 .problem-table tr:nth-child(even) {
   background-color: rgb(41, 41, 41); 
+} 
+  */
+
+.Medium, .Easy, .Hard{
+  /* -webkit-text-stroke: 1px black; */
 }
+
+.Medium:hover{
+  background-color: rgb(255, 189, 68);
+  color: white;
+}
+
+.Easy:hover{
+  background-color: rgb(136, 221, 26);
+  color: white;
+
+}
+
+.Hard:hover{
+  background-color: red;
+  color: white;
+
+}
+
 
