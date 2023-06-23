@@ -1,5 +1,4 @@
 :root {
-  --table-header-color: rgb(101, 255, 234);
   --blue: rgb(1, 158, 185);
 }
 
@@ -78,6 +77,7 @@
 
 .problem-table .diff-head, .problem-table .problem-head {
   background-color: var(--blue);
+  color: white;
 }
 
 .Medium, .Easy, .Hard{
@@ -103,3 +103,4 @@
 .problem-table tr:nth-child(even) {
   background-color: rgb(41, 41, 41); 
 }
+
