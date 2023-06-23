@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@400;500&display=swap');
 
 #root{
-    --blue: rgb(1, 158, 185);
+    --blue: rgb(40, 211, 241);
     --light-blue: rgb(213, 250, 252);
 }
 
@@ -42,7 +42,7 @@ ul.categories-bar > li{
     cursor: pointer;
 }
 
-li.active{
+li.active, li:hover{
     background-color: rgb(63, 63, 45);
     background-color: var(--blue);
     color: white;

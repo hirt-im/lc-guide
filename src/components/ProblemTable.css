@@ -14,7 +14,7 @@
   overflow: hidden;
   background-color: white;
 
-  margin-top: 25px;
+  /* margin-top: 25px; */
 
 
 
@@ -57,7 +57,7 @@
 
 .problem-table td {
   vertical-align: middle;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .table-container{
@@ -108,7 +108,8 @@
 .Hard:hover{
   background-color: red;
   color: white;
-
 }
+
+
 
 
