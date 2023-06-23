@@ -117,15 +117,6 @@
   /* vertical-align: middle; */
 }
 
-.fav-column{
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  text-align: center;
-}
-
-
-
 .check-icon{
   cursor: pointer;
 }
