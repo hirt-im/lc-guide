@@ -114,11 +114,17 @@
 .fav-icon{
   cursor: pointer;
   display: inline-block;
+
   /* vertical-align: middle; */
 }
 
 .check-icon{
   cursor: pointer;
+}
+
+.fav-icon:hover{
+  color: rgb(250, 230, 140);
+
 }
 
 .problem-table .fav-column, .problem-table .check-column{

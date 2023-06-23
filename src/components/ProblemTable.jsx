@@ -48,7 +48,7 @@ export default function ProblemTable(props){
                             // <tr className={props.problemSet[props.category][key].difficulty}>
                             <tr>
                                 <td className='fav-column' style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <FaStar className='fav-icon' onClick={favoriteProblem} color={(props.problemSet[props.category][key].favorited ? 'rgb(255, 230, 0)' : null)} size='60%'/>
+                                    <FaStar className='fav-icon' onClick={favoriteProblem} color={(props.problemSet[props.category][key].favorited ? 'rgb(255, 212, 23)' : null)} size='60%'/>
                                 </td>
 
                                 <td className={props.problemSet[props.category][key].difficulty + ' ' + 'problem-column'} onClick={selectProblem}>
