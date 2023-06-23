@@ -1,15 +1,14 @@
-
-
 #root {
   /* max-width: 1280px; */
   /* margin: 0 auto; */
   /* padding: 2rem; */
   text-align: center;
+  --blue-color: rgb(1, 158, 185);
 }
 
 body {
   background-color: rgb(253, 239, 219);
-  background-color: #FF6B6B;
+  background-color: rgb(30,30,30);
   display: flex;
   justify-content: center;
   align-items: center;

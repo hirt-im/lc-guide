@@ -1,6 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@400;500&display=swap');
 
+#root{
+    --blue: rgb(1, 158, 185);
+    --light-blue: rgb(213, 250, 252);
+}
+
 ul.categories-bar{
     display: flex;
     flex-wrap: wrap;
@@ -37,8 +42,10 @@ ul.categories-bar > li{
 
 li.active{
     background-color: rgb(63, 63, 45);
+    background-color: var(--blue);
     color: white;
 }
+
 
 li{
     /* background-color: rgb(197, 189, 163); */
