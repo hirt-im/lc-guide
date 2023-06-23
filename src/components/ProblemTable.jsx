@@ -20,6 +20,8 @@ export default function ProblemTable(props){
         return;
     }
 
+
+
     return(
         <div className='table-container'>
             <table className='problem-table'>
@@ -32,9 +34,10 @@ export default function ProblemTable(props){
                 <tbody>
                     {Object.keys(problems[props.category]).map((key) => {
                         return (
-                            <tr className={problems[props.category][key].difficulty}>
+                            // <tr className={problems[props.category][key].difficulty}>
+                            <tr>
                                 <td className='fav-column' onClick={favoriteProblem}><FaStar className='fav-icon' /></td>
-                                <td className='problem-column' onClick={selectProblem}>{key}</td>
+                                <td className={problems[props.category][key].difficulty + ' ' + 'problem-column'} onClick={selectProblem}>{key}</td>
                                 <td className='check-column' onClick={checkProblem}><BsFillCheckSquareFill className='check-icon'/></td>
                                 {/* <td className='diff-col'>{problems[props.category][key].difficulty}</td> */}
                             </tr>
