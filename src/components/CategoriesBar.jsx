@@ -8,17 +8,19 @@ export default function CategoriesBar(props){
     }
 
     return(
-        <ul className='categories-bar'>
-            {Object.keys(props.problems).map((category, index) => (
-                <li 
-                    onClick={handleClick}
-                    key={index}
-                    className={props.category === category ? 'active' : ''}
-                >        
-                    {category}
-                </li>
-            ))}
-        </ul>
+        <div className='categories-container'>
+            <ul className='categories-bar'>
+                {Object.keys(props.problems).map((category, index) => (
+                    <li 
+                        onClick={handleClick}
+                        key={index}
+                        className={props.category === category ? 'active' : ''}
+                    >        
+                        {category}
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 }
 

@@ -70,6 +70,9 @@
 
   background-color: rgb(255, 197, 39);
   background-color: rgb(40,40,40);
+
+  /* flex: '1 1 auto'; */
+  overflow: auto;
 }
 
 .problem-column{

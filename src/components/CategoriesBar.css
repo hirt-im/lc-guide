@@ -68,3 +68,12 @@ li{
     font-size: 1.1em;
     padding: 5px
 }
+
+
+.categories-container{
+    align-self: flex-start;
+    flex: '0 0 auto';
+    /* margin-bottom: 20px; */
+   /* position: fixed;
+   top: 0;  */
+}
