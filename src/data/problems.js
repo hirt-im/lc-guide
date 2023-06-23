@@ -3700,17 +3700,16 @@ export const problems = {
 }
 
 // functions used to add properties to problems, in case you need to add more in future
-function addProperties(){
+function addProperties(propertyName, value){
     for (let category in problems){
       if(problems.hasOwnProperty(category)){
       //  console.log(category);
 
        let problemList = Object.keys(problems[category]);
       //  console.log(test);
-       for (let i = 0; i < test.length; i++){
+       for (let i = 0; i < problemList.length; i++){
           console.log(problems[category][problemList[i]])
-          problems[category][problemList[i]].favorited = false;
-          problems[category][problemList[i]].checked = false;
+          problems[category][problemList[i]][propertyName] = value;
         }
        }
       }
