@@ -41,6 +41,10 @@
   margin-top: 25px;
   margin-bottom: 25px;
 
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+
 
 
 
