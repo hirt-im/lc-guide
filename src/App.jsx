@@ -21,9 +21,18 @@ function App() {
       />
       
       {problem == null ? 
-        <ProblemTable category={category} setProblem={setProblem} problemSet={problemSet} setProblemSet={setProblemSet} /> 
+        <ProblemTable 
+          category={category} 
+          setProblem={setProblem} 
+          problemSet={problemSet} 
+          setProblemSet={setProblemSet} 
+        /> 
         : 
-        <ShowProblem category={category} problem={problem} setProblem={setProblem}  />
+        <ShowProblem 
+          category={category} 
+          problem={problem} 
+          setProblem={setProblem}  
+        />
       }
     </div>
   )
