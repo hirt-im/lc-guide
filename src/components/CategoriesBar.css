@@ -50,28 +50,7 @@ ul.categories-bar > li{
     cursor: pointer;
 }
 
-li.active, li:hover{
-    background-color: rgb(63, 63, 45);
-    background-color: var(--blue);
-    background-color: rgb(30,30,30);
-    color: white;
-
-    transition: background-color 0.3s ease;
-    transition: color 0.3s ease;
-
-}
-
-li:active, li.active{
-    color: rgb(30,30,30);
-    background-color: white;
-    color: black;
-}
-
-
-
 li{
-    /* background-color: rgb(197, 189, 163); */
-    /* background-color: #F7F7F2; */
     background-color: rgb(30,30,30);
     color: white;
     color: white;
@@ -80,8 +59,15 @@ li{
     font-size: 1.1em;
     padding: 5px;
     box-shadow: 0 1px 0 white;
-
+    transition: background-color 0.3s ease;
 }
+
+li.active{
+    color: rgb(30,30,30);
+    background-color: white;
+    color: black;
+}
+
 
 li:hover{
     outline: 1px solid white;
