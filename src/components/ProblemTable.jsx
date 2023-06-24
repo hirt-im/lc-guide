@@ -6,7 +6,7 @@ import ProgressBar from './ProgressBar';
 
 
 export default function ProblemTable(props){
-    console.log(props.problemSet[props.category])
+    // console.log(props.problemSet[props.category])
 
     function selectProblem(e){
         props.setProblem(e.target.innerText)
@@ -15,6 +15,9 @@ export default function ProblemTable(props){
     function favoriteProblem(e){
         let problemName = e.target.parentNode.parentNode.nextElementSibling.innerText;
         let problem = props.problemSet[props.category][problemName];
+        console.log(props.category, props.problemSet)
+        console.log(props.problemSet[props.category])
+        console.log(problem);
         problem.favorited = !problem.favorited;
 
         if (!problem.favorited){

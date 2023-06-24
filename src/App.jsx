@@ -27,7 +27,7 @@ function App() {
   return (
     <div className='container'>
       <CategoriesBar 
-        problems={problems} 
+        problemSet={problemSet} 
         setCategory={setCategory} 
         category={category} 
         setProblem={setProblem} 

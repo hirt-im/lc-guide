@@ -5,6 +5,7 @@ export default function CategoriesBar(props){
     
     function handleClick(e){
         let category = (e.target.outerText != undefined ? e.target.outerText : "Favorites");
+        // if(props)
         props.setCategory(category);
         props.setProblem(null);
     }
@@ -12,7 +13,7 @@ export default function CategoriesBar(props){
     return(
         <div className='categories-container'>
             <ul className='categories-bar'>
-                {Object.keys(props.problems).map((category, index) => (
+                {Object.keys(props.problemSet).map((category, index) => (
                     <li 
                         onClick={handleClick}
                         key={index}
