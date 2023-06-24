@@ -45,6 +45,7 @@ function App() {
           category={category} 
           problem={problem} 
           setProblem={setProblem}  
+          problemSet={problemSet}
         />
       }
     </div>

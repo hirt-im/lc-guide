@@ -6,6 +6,7 @@ import ProgressBar from './ProgressBar';
 
 
 export default function ProblemTable(props){
+    console.log(props.problemSet[props.category])
 
     function selectProblem(e){
         props.setProblem(e.target.innerText)
