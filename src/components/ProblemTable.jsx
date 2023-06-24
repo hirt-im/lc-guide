@@ -2,14 +2,13 @@ import './ProblemTable.css';
 // import { problems } from '../data/problems';
 import { FaStar } from 'react-icons/fa';
 import { BsFillCheckSquareFill } from 'react-icons/bs';
+import ProgressBar from './ProgressBar';
 
 
 export default function ProblemTable(props){
 
     function selectProblem(e){
-        console.log(e.target.innerText);
         props.setProblem(e.target.innerText)
-        // props.setProblem
     }
 
     function favoriteProblem(e){
@@ -32,9 +31,23 @@ export default function ProblemTable(props){
         localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
     }
 
+    
+   // get [number of checked problems, total number of problems] for category
+    let checked = [0,0];
+    function getChecked(problemSet, category){
+        Object.keys(problemSet[category]).forEach(problem => {
+            if (problemSet[category][problem].checked){
+                checked[0] += 1
+            }
+            checked[1] += 1
+        })
+    }
+    getChecked(props.problemSet, props.category);
+
 
     return(
         <div className='table-container'>
+            <ProgressBar checked={checked}/>
             <table className='problem-table'>
                 {/* <thead>
                     <tr>

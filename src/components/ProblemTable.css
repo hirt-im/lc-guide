@@ -6,9 +6,10 @@
   height: 100%;
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
 
   background-color: rgb(255, 197, 39);
   background-color: rgb(40,40,40);
@@ -37,7 +38,7 @@
   background-color: white;
 
   /* table-layout: fixed; */
-  align-self: flex-start;
+  /* align-self:; */
   margin-top: 25px;
   margin-bottom: 25px;
 
@@ -153,4 +154,8 @@
 .problem-table .fav-column, .problem-table .check-column{
   width: 7%;
   /* height: 100%; */
+}
+
+.progress-container{
+  color: white;
 }
