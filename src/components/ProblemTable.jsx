@@ -16,6 +16,10 @@ export default function ProblemTable(props){
         let problem = props.problemSet[props.category][problemName];
         problem.favorited = !problem.favorited;
 
+        if (!problem.favorited){
+            delete props.problemSet["Favorites"][problemName];
+        }
+
         let updatedProblemSet = {...props.problemSet};
         props.setProblemSet(updatedProblemSet);
         localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
