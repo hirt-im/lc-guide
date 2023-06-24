@@ -3696,6 +3696,9 @@ export const problems = {
             "checked": false,
             "url": "https://leetcode.com/problems/Detect-Squares"
         }
+    },
+    "Favorites":{
+        
     }
 }
 
