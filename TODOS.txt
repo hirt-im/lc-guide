@@ -1,5 +1,7 @@
 1. Fix styling issues
 2. Improve styling of CategoryBar
+3. Add progress tracker to each category
+	( n / total) with progress bar
 
 
 
