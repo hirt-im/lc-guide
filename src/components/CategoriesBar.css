@@ -61,11 +61,12 @@ li.active, li:hover{
 
 }
 
-li:active{
+li:active, li.active{
     color: rgb(30,30,30);
     background-color: white;
     color: black;
 }
+
 
 
 li{
@@ -79,6 +80,7 @@ li{
     font-size: 1.1em;
     padding: 5px;
     box-shadow: 0 1px 0 white;
+
 }
 
 li:hover{
