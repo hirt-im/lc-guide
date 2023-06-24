@@ -2,6 +2,7 @@
 2. Improve styling of CategoryBar
 3. Add progress tracker to each category
 	( n / total) with progress bar
+4. Fix bug with favoriting not working sometimes
 
 
 
