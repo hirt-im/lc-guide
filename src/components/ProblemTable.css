@@ -2,6 +2,22 @@
   --blue: rgb(1, 158, 185);
 }
 
+.table-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(255, 197, 39);
+  background-color: rgb(40,40,40);
+
+  /* flex: '1 1 auto'; */
+  overflow: auto;
+}
+
+
 .problem-table {
   width: 50%;
   border-collapse: collapse;
@@ -61,20 +77,6 @@
   /* border-radius: 8px; */
 }
 
-.table-container{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  align-items: center;
-  justify-content: center;
-
-  background-color: rgb(255, 197, 39);
-  background-color: rgb(40,40,40);
-
-  /* flex: '1 1 auto'; */
-  overflow: auto;
-}
 
 .problem-column{
   cursor: pointer;
