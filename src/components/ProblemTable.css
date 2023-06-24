@@ -39,7 +39,7 @@
 
   /* table-layout: fixed; */
   /* align-self:; */
-  margin-top: 25px;
+  margin-top: 6px;
   margin-bottom: 25px;
 
   -webkit-user-select: none; 
@@ -156,6 +156,3 @@
   /* height: 100%; */
 }
 
-.progress-container{
-  color: white;
-}
