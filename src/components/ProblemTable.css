@@ -15,6 +15,12 @@
 
   /* flex: '1 1 auto'; */
   overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.table-container::-webkit-scrollbar{
+  display: none;
 }
 
 
@@ -30,12 +36,14 @@
   overflow: hidden;
   background-color: white;
 
-
-  /* margin-top: 25px; */
-
-
-
   /* table-layout: fixed; */
+  align-self: flex-start;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+
+
+
   
   /* position: fixed;
   top: 50%;
