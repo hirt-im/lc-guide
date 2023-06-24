@@ -31,7 +31,6 @@ export default function ProblemTable(props){
         localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
     }
 
-    
    // get [number of checked problems, total number of problems] for category
     let checked = [0,0];
     function getChecked(problemSet, category){
@@ -58,6 +57,7 @@ export default function ProblemTable(props){
                 <tbody>
                     {Object.keys(props.problemSet[props.category]).map((key) => {
                         return (
+                            // use this line to make entire row highlight with difficulty color
                             // <tr className={props.problemSet[props.category][key].difficulty}>
                             <tr>
                                 <td className='fav-column' style={{ textAlign: 'center', verticalAlign: 'middle' }} >
