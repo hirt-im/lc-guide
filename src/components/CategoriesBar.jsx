@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa';
 export default function CategoriesBar(props){
     
     function handleClick(e){
-        let category = (e.target.outerText === undefined ? "Favorites" : e.target.outerText);
+        let category = (e.target.outerText != undefined ? e.target.outerText : "Favorites");
         props.setCategory(category);
         props.setProblem(null);
     }

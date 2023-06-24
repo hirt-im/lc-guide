@@ -69,6 +69,10 @@ li.active{
     color: black;
 }
 
+li.active svg{
+    color: rgb(255, 212, 23);
+}
+
 
 li:hover{
     outline: 1px solid white;
