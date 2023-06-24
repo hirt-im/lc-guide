@@ -1,9 +1,11 @@
 import './CategoriesBar.css'
+import { FaStar } from 'react-icons/fa';
 
 export default function CategoriesBar(props){
     
     function handleClick(e){
-        props.setCategory(e.target.outerText);
+        let category = (e.target.outerText === undefined ? "Favorites" : e.target.outerText);
+        props.setCategory(category);
         props.setProblem(null);
     }
 
@@ -15,8 +17,16 @@ export default function CategoriesBar(props){
                         onClick={handleClick}
                         key={index}
                         className={props.category === category ? 'active' : ''}
-                    >        
-                        {category}
+                    >       
+                    {/* {category}  */}
+                        {category != "Favorites" ? 
+                            category
+                            : 
+                            <FaStar 
+                                // className='fav-icon' 
+                                size='60%'
+                            />
+                        }
                     </li>
                 ))}
             </ul>
