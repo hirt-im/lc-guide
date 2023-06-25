@@ -13,7 +13,9 @@ export default function ProblemTable(props){
     }
 
     function favoriteProblem(e){
-        let problemName = e.target.parentNode.parentNode.nextElementSibling.innerText;
+
+        // conditional expression ensures the problem name is retrieved from the correct element, as e.target is either <svg> or <path>, depending on where the icon is clicked
+        let problemName = (e.target.parentNode.parentNode.nodeName === "TD" ? e.target.parentNode.parentNode.nextElementSibling.innerText : e.target.parentNode.nextElementSibling.innerText);
         let problem = props.problemSet[props.category][problemName];
         problem.favorited = !problem.favorited;
 
@@ -27,7 +29,7 @@ export default function ProblemTable(props){
     }
 
     function checkProblem(e){
-        let problemName = e.target.parentNode.parentNode.previousElementSibling.innerText;
+        let problemName = (e.target.parentNode.parentNode.nodeName === "TD" ? e.target.parentNode.parentNode.previousElementSibling.innerText : e.target.parentNode.previousElementSibling.innerText);
         let problem = props.problemSet[props.category][problemName];
         problem.checked = !problem.checked;
 
