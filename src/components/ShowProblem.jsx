@@ -18,6 +18,16 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
         props.setProblem(null);
     }
 
+    function favoriteProblem(){
+        problem.favorited = !problem.favorited;
+        if (!problem.favorited){
+            delete props.problemSet["Favorites"][problemName];
+        }
+        let updatedProblemSet = {...props.problemSet};
+        props.setProblemSet(updatedProblemSet);
+        localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
+    }
+
 
     return (
         <div className='show-problem-container'>
@@ -25,7 +35,7 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
                 <IoArrowBack size="3vh" />
             </div>
             <div className='star-container'>
-                <FaStar size="2.3vh" />
+                <FaStar className='fav-icon' onClick={favoriteProblem} size="2.3vh" color={(props.problemSet[props.category][problemName].favorited ? 'rgb(255, 212, 23)' : null)} />
             </div>
             <h1><a href={problem.url} target="_blank">{problemName}</a></h1>
             <p>{lorem}</p>

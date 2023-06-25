@@ -46,6 +46,7 @@ function App() {
           problem={problem} 
           setProblem={setProblem}  
           problemSet={problemSet}
+          setProblemSet={setProblemSet} 
         />
       }
     </div>

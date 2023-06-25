@@ -64,3 +64,13 @@
 }
 
 
+.fav-icon{
+    cursor: pointer;
+    display: inline-block;
+  
+    /* vertical-align: middle; */
+  }
+  
+  .fav-icon:hover{
+    color: rgb(252, 235, 159);
+  }
