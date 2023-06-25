@@ -35,7 +35,7 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
     return (
         <div className='show-problem-container'>
             <div className='back-button' onClick={goBack}>
-                <IoArrowBack size="3vh" />
+                <IoArrowBack className='back-icon' size="3vh" />
             </div>
             <div className='star-container'>
                 <FaStar className='fav-icon' onClick={favoriteProblem} size="2.3vh" color={(props.problemSet[props.category][problemName].favorited ? 'rgb(255, 212, 23)' : null)} />

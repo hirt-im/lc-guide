@@ -69,8 +69,12 @@
     display: inline-block;
   
     /* vertical-align: middle; */
-  }
-  
-  .fav-icon:hover{
-    color: rgb(252, 235, 159);
-  }
+}
+
+.fav-icon:hover{
+color: rgb(252, 235, 159);
+}
+
+.back-icon:hover{
+    color: rgb(219, 219, 219);
+}
