@@ -23,6 +23,9 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
         if (!problem.favorited){
             delete props.problemSet["Favorites"][problemName];
         }
+        if(props.category == "Favorites"){
+            props.setProblem(null);
+        }
         let updatedProblemSet = {...props.problemSet};
         props.setProblemSet(updatedProblemSet);
         localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
