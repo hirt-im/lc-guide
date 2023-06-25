@@ -15,7 +15,7 @@ export default function ProblemTable(props){
     function favoriteProblem(e){
 
         // ternary operator ensures the problem name is retrieved from the correct element, as e.target is either <svg> or <path>, depending on where the icon is clicked
-        let problemName = (e.target.parentNode.parentNode.nodeName === "TD" ? e.target.parentNode.parentNode.nextElementSibling.innerText : e.target.parentNode.nextElementSibling.innerText);
+        let problemName = (e.target.nodeName === "svg" ? e.target.parentNode.nextElementSibling.innerText : e.target.parentNode.parentNode.nextElementSibling.innerText);
         let problem = props.problemSet[props.category][problemName];
         problem.favorited = !problem.favorited;
 
@@ -29,7 +29,7 @@ export default function ProblemTable(props){
     }
 
     function checkProblem(e){
-        let problemName = (e.target.parentNode.parentNode.nodeName === "TD" ? e.target.parentNode.parentNode.previousElementSibling.innerText : e.target.parentNode.previousElementSibling.innerText);
+        let problemName = (e.target.nodeName === "svg" ? e.target.parentNode.previousElementSibling.innerText : e.target.parentNode.parentNode.previousElementSibling.innerText);
         let problem = props.problemSet[props.category][problemName];
         problem.checked = !problem.checked;
 
@@ -75,8 +75,8 @@ export default function ProblemTable(props){
                                     {key}
                                 </td>
 
-                                <td className='check-column' onClick={checkProblem} style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <BsFillCheckSquareFill className='check-icon' color={(props.problemSet[props.category][key].checked ? 'rgb(136, 221, 26)' : null)} size='60%'/>
+                                <td className='check-column' style={{ textAlign: 'center', verticalAlign: 'middle' }} >
+                                    <BsFillCheckSquareFill className='check-icon' onClick={checkProblem} color={(props.problemSet[props.category][key].checked ? 'rgb(136, 221, 26)' : null)} size='60%'/>
                                 </td>
                                 {/* <td className='diff-col'>{props.problemSet[props.category][key].difficulty}</td> */}
                             </tr>
