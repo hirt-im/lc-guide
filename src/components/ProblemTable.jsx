@@ -38,7 +38,7 @@ export default function ProblemTable(props){
         localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
     }
 
-   // get [number of checked problems, total number of problems] for category
+    // get [number of checked problems, total number of problems] for category
     let checked = [0,0];
     function getChecked(problemSet, category){
         Object.keys(problemSet[category]).forEach(problem => {
