@@ -14,7 +14,7 @@ export default function ProblemTable(props){
 
     function favoriteProblem(e){
 
-        // ternary operator ensures the problem name is retrieved from the correct element, as e.target is either <svg> or <path>, depending on where the icon is clicked
+        // ensures the problem name is retrieved from the correct element, as e.target is either <svg> or <path>, depending on where the icon is clicked
         let problemName = (e.target.nodeName === "svg" ? e.target.parentNode.nextElementSibling.innerText : e.target.parentNode.parentNode.nextElementSibling.innerText);
         let problem = props.problemSet[props.category][problemName];
         problem.favorited = !problem.favorited;
