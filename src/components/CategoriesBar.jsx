@@ -5,7 +5,10 @@ export default function CategoriesBar(props){
     
     function handleClick(e){
         let category = (e.target.outerText != undefined ? e.target.outerText : "Favorites");
-        // if(props)
+
+        //prevent page from crashing if problemSet isn't loaded
+        if(props.problemSet[category] === undefined){return;}
+
         props.setCategory(category);
         props.setProblem(null);
     }
