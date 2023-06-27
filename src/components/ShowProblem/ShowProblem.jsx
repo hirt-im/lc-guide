@@ -4,6 +4,7 @@ import { FaStar } from 'react-icons/fa';
 import { IoArrowBack } from 'react-icons/io5'
 
 import './ShowProblem.css';
+import Code from './components/Code/Code';
 
 
 
@@ -41,10 +42,11 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
                 <FaStar className='fav-icon' onClick={favoriteProblem} size="2.3vh" color={(props.problemSet[props.category][problemName].favorited ? 'rgb(255, 212, 23)' : null)} />
             </div>
             <h1><a href={problem.url} target="_blank">{problemName}</a></h1>
+            <Code />
+            {/* <p>{lorem}</p>
             <p>{lorem}</p>
             <p>{lorem}</p>
-            <p>{lorem}</p>
-            <p>{lorem}</p>
+            <p>{lorem}</p> */}
         </div>
     );
 }
