@@ -35,23 +35,35 @@ let testProblem =  {
 
 export default function Code(props){
 
+    // let code = (props.problem.code.python != undefined ? props.problem.code.python : testProblem.code.python)
+    let code = props.problem.code.python
+
+    console.log(props.problem)
+
     function onChange(newValue) {
         console.log(newValue);
+        props.problemSet[props.category][props.problemName].code.python = newValue;
+
+        let updatedProblemSet = {...props.problemSet};
+        props.setProblemSet(updatedProblemSet);
+        localStorage.setItem('problemSet', JSON.stringify(updatedProblemSet));
+
+        console.log(props.problemSet)
       }
 
 
     return(
         <AceEditor
-        mode="python"
-        theme="monokai"
-        onChange={onChange}
-        name="code"
-        // editorProps={{ $blockScrolling: true }}
-        value={testProblem.code.python}
-        width="75%"
-        height="50%"
-        fontSize={"1.1em"}
-        showPrintMargin={false}
-      />
+            mode="python"
+            theme="monokai"
+            onChange={onChange}
+            name="code"
+            // editorProps={{ $blockScrolling: true }}
+            value={code}
+            width="75%"
+            height="50%"
+            fontSize={"1.1em"}
+            showPrintMargin={false}
+        />
     );
 }

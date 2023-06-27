@@ -44,7 +44,13 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
             </div>
             <h1><a href={problem.url} target="_blank">{problemName}</a></h1>
             <Notes />
-            <Code />
+            <Code 
+                problemSet={props.problemSet} 
+                category={props.category} 
+                problemName={problemName} 
+                problem={problem}
+                setProblemSet={props.setProblemSet}
+            />
             {/* <p>{lorem}</p>
             <p>{lorem}</p>
             <p>{lorem}</p>

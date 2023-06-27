@@ -2668,6 +2668,1040 @@
 //     }
 // }
 
+// export const problems = {
+//     "Arrays & Hashing": {
+//         "Contains Duplicate": {
+//             "id": 217,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Contains-Duplicate"
+//         },
+//         "Valid Anagram": {
+//             "id": 242,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Valid-Anagram"
+//         },
+//         "Two Sum": {
+//             "id": 1,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Two-Sum"
+//         },
+//         "Group Anagrams": {
+//             "id": 49,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Group-Anagrams"
+//         },
+//         "Top K Frequent Elements": {
+//             "id": 347,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Top-K-Frequent-Elements"
+//         },
+//         "Product of Array Except Self": {
+//             "id": 238,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Product-of-Array-Except-Self"
+//         },
+//         "Valid Sudoku": {
+//             "id": 36,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Valid-Sudoku"
+//         },
+//         "Longest Consecutive Sequence": {
+//             "id": 128,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Consecutive-Sequence"
+//         }
+//     },
+//     "Two Pointers": {
+//         "Valid Palindrome": {
+//             "id": 125,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Valid-Palindrome"
+//         },
+//         "Two Sum II - Input Array Is Sorted": {
+//             "id": 167,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Two-Sum-II-Input-Array-Is-Sorted"
+//         },
+//         "3Sum": {
+//             "id": 15,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/3Sum"
+//         },
+//         "Container With Most Water": {
+//             "id": 11,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Container-With-Most-Water"
+//         },
+//         "Trapping Rain Water": {
+//             "id": 42,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Trapping-Rain-Water"
+//         }
+//     },
+//     "Stack": {
+//         "Valid Parentheses": {
+//             "id": 20,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Valid-Parentheses"
+//         },
+//         "Min Stack": {
+//             "id": 155,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Min-Stack"
+//         },
+//         "Evaluate Reverse Polish Notation": {
+//             "id": 150,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Evaluate-Reverse-Polish-Notation"
+//         },
+//         "Generate Parentheses": {
+//             "id": 22,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Generate-Parentheses"
+//         },
+//         "Car Fleet": {
+//             "id": 853,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Car-Fleet"
+//         },
+//         "Daily Temperatures": {
+//             "id": 739,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Daily-Temperatures"
+//         },
+//         "Largest Rectangle In Histogram": {
+//             "id": 84,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Largest-Rectangle-In-Histogram"
+//         }
+//     },
+//     "Binary Search": {
+//         "Binary Search": {
+//             "id": 704,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Binary-Search"
+//         },
+//         "Search a 2D Matrix": {
+//             "id": 74,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Search-a-2D-Matrix"
+//         },
+//         "Koko Eating Bananas": {
+//             "id": 875,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Koko-Eating-Bananas"
+//         },
+//         "Find Minimum In Rotated Sorted Array": {
+//             "id": 153,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Find-Minimum-In-Rotated-Sorted-Array"
+//         },
+//         "Search In Rotated Sorted Array": {
+//             "id": 33,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Search-In-Rotated-Sorted-Array"
+//         },
+//         "Time Based Key Value Store": {
+//             "id": 981,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Time-Based-Key-Value-Store"
+//         },
+//         "Median of Two Sorted Arrays": {
+//             "id": 4,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Median-of-Two-Sorted-Arrays"
+//         }
+//     },
+//     "Sliding Window": {
+//         "Best Time to Buy And Sell Stock": {
+//             "id": 121,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock"
+//         },
+//         "Longest Substring Without Repeating Characters": {
+//             "id": 3,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Substring-Without-Repeating-Characters"
+//         },
+//         "Longest Repeating Character Replacement": {
+//             "id": 424,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Repeating-Character-Replacement"
+//         },
+//         "Permutation In String": {
+//             "id": 567,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Permutation-In-String"
+//         },
+//         "Minimum Window Substring": {
+//             "id": 76,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Minimum-Window-Substring"
+//         },
+//         "Sliding Window Maximum": {
+//             "id": 239,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Sliding-Window-Maximum"
+//         }
+//     },
+//     "Linked List": {
+//         "Reverse Linked List": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Reverse-Linked-List"
+//         },
+//         "Merge Two Sorted Lists": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Merge-Two-Sorted-Lists"
+//         },
+//         "Linked List Cycle": {
+//             "id": 141,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Linked-List-Cycle"
+//         },
+//         "Reorder List": {
+//             "id": 143,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Reorder-List"
+//         },
+//         "Remove Nth Node From End of List": {
+//             "id": 19,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Remove-Nth-Node-From-End-of-List"
+//         },
+//         "Copy List With Random Pointer": {
+//             "id": 138,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Copy-List-With-Random-Pointer"
+//         },
+//         "Add Two Numbers": {
+//             "id": 2,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Add-Two-Numbers"
+//         },
+//         "Find The Duplicate Number": {
+//             "id": 287,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Find-The-Duplicate-Number"
+//         },
+//         "LRU Cache": {
+//             "id": 146,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/LRU-Cache"
+//         },
+//         "Merge K Sorted Lists": {
+//             "id": 23,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Merge-K-Sorted-Lists"
+//         },
+//         "Reverse Nodes In K Group": {
+//             "id": 25,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Reverse-Nodes-In-K-Group"
+//         }
+//     },
+//     "Trees": {
+//         "Invert Binary Tree": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Invert-Binary-Tree"
+//         },
+//         "Maximum Depth of Binary Tree": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Maximum-Depth-of-Binary-Tree"
+//         },
+//         "Diameter of Binary Tree": {
+//             "id": 141,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Diameter-of-Binary-Tree"
+//         },
+//         "Balanced Binary Tree": {
+//             "id": 143,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Balanced-Binary-Tree"
+//         },
+//         "Same Tree": {
+//             "id": 19,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Same-Tree"
+//         },
+//         "Subtree of Another Tree": {
+//             "id": 143,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Subtree-of-Another-Tree"
+//         },
+//         "Lowest Common Ancestor of a Binary Search Tree": {
+//             "id": 138,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Lowest-Common-Ancestor-of-a-Binary-Search-Tree"
+//         },
+//         "Binary Tree Level Order Traversal": {
+//             "id": 2,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Binary-Tree-Level-Order-Traversal"
+//         },
+//         "Binary Tree Right Side View": {
+//             "id": 287,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Binary-Tree-Right-Side-View"
+//         },
+//         "Count Good Nodes In Binary Tree": {
+//             "id": 146,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Count-Good-Nodes-In-Binary-Tree"
+//         },
+//         "Validate Binary Search Tree": {
+//             "id": 23,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Validate-Binary-Search-Tree"
+//         },
+//         "Kth Smallest Element In a Bst": {
+//             "id": 25,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Kth-Smallest-Element-In-a-Bst"
+//         },
+//         "Construct Binary Tree From Preorder And Inorder Traversal": {
+//             "id": 146,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal"
+//         },
+//         "Binary Tree Maximum Path Sum": {
+//             "id": 23,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Binary-Tree-Maximum-Path-Sum"
+//         },
+//         "Serialize And Deserialize Binary Tree": {
+//             "id": 25,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Serialize-And-Deserialize-Binary-Tree"
+//         }
+//     },
+//     "Tries": {
+//         "Implement Trie Prefix Tree": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Implement-Trie-Prefix-Tree"
+//         },
+//         "Design Add And Search Words Data Structure": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Design-Add-And-Search-Words-Data-Structure"
+//         },
+//         "Word Search II": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Word-Search-II"
+//         }
+//     },
+//     "Backtracking": {
+//         "Subsets": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Subsets"
+//         },
+//         "Combination Sum": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Combination-Sum"
+//         },
+//         "Permutations": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Permutations"
+//         },
+//         "Subsets II": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Subsets-II"
+//         },
+//         "Combination Sum II": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Combination-Sum-II"
+//         },
+//         "Word Search": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Word-Search"
+//         },
+//         "Palindrome Partitioning": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Palindrome-Partitioning"
+//         },
+//         "Letter Combinations of a Phone Number": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Letter-Combinations-of-a-Phone-Number"
+//         },
+//         "N Queens": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/N-Queens"
+//         }
+//     },
+//     "Graphs": {
+//         "Number of Islands": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Number-of-Islands"
+//         },
+//         "Clone Graph": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Clone-Graph"
+//         },
+//         "Max Area of Island": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Max-Area-of-Island"
+//         },
+//         "Pacific Atlantic Water Flow": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Pacific-Atlantic-Water-Flow"
+//         },
+//         "Surrounded Regions": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Surrounded-Regions"
+//         },
+//         "Rotting Oranges": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Rotting-Oranges"
+//         },
+//         "Walls And Gates": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Walls-And-Gates"
+//         },
+//         "Course Schedule": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Course-Schedule"
+//         },
+//         "Course Schedule II": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Course-Schedule-II"
+//         },
+//         "Redundant Connection": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Redundant-Connection"
+//         },
+//         "Number of Connected Components In An Undirected Graph": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Number-of-Connected-Components-In-An-Undirected-Graph"
+//         },
+//         "Graph Valid Tree": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Graph-Valid-Tree"
+//         },
+//         "Word Ladder": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Word-Ladder"
+//         }
+//     },
+//     "Dynamic Programming": {
+//         "Climbing Stairs": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Climbing-Stairs"
+//         },
+//         "Min Cost Climbing Stairs": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Min-Cost-Climbing-Stairs"
+//         },
+//         "House Robber": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/House-Robber"
+//         },
+//         "House Robber II": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/House-Robber-II"
+//         },
+//         "Longest Palindromic Substring": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Palindromic-Substring"
+//         },
+//         "Palindromic Substrings": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Palindromic-Substrings"
+//         },
+//         "Decode Ways": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Decode-Ways"
+//         },
+//         "Coin Change": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Coin-Change"
+//         },
+//         "Maximum Product Subarray": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Maximum-Product-Subarray"
+//         },
+//         "Word Break": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Word-Break"
+//         },
+//         "Longest Increasing Subsequence": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Increasing-Subsequence"
+//         },
+//         "Partition Equal Subset Sum": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Partition-Equal-Subset-Sum"
+//         }
+//     },
+//     "2D Dynamic Programming": {
+//         "Unique Paths": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Unique-Paths"
+//         },
+//         "Longest Common Subsequence": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Common-Subsequence"
+//         },
+//         "Best Time to Buy And Sell Stock With Cooldown": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock-With-Cooldown"
+//         },
+//         "Coin Change II": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Coin-Change-II"
+//         },
+//         "Target Sum": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Target-Sum"
+//         },
+//         "Interleaving String": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Interleaving-String"
+//         },
+//         "Longest Increasing Path In a Matrix": {
+//             "id": 206,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Longest-Increasing-Path-In-a-Matrix"
+//         },
+//         "Distinct Subsequences": {
+//             "id": 21,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Distinct-Subsequences"
+//         },
+//         "Edit Distance": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Edit-Distance"
+//         },
+//         "Burst Balloons": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Burst-Balloons"
+//         },
+//         "Regular Expression Matching": {
+//             "id": 206,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Regular-Expression-Matching"
+//         }
+//     },
+//     "Bit Manipulation": {
+//         "Single Number": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Single-Number"
+//         },
+//         "Number of 1 Bits": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Number-of-1-Bits"
+//         },
+//         "Counting Bits": {
+//             "id": 141,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Counting-Bits"
+//         },
+//         "Reverse Bits": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Reverse-Bits"
+//         },
+//         "Missing Number": {
+//             "id": 21,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Missing-Number"
+//         },
+//         "Sum of Two Integers": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Sum-of-Two-Integers"
+//         },
+//         "Reverse Integer": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Reverse-Integer"
+//         }
+//     },
+//     "Intervals": {
+//         "Meeting Rooms": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Meeting-Rooms"
+//         },
+//         "Insert Interval": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Insert-Interval"
+//         },
+//         "Merge Intervals": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Merge-Intervals"
+//         },
+//         "Non Overlapping Intervals": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Non-Overlapping-Intervals"
+//         },
+//         "Meeting Rooms II": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Meeting-Rooms-II"
+//         },
+//         "Minimum Interval to Include Each Query": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Minimum-Interval-to-Include-Each-Query"
+//         }
+//     },
+//     "Greedy": {
+//         "Maximum Subarray": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Maximum-Subarray"
+//         },
+//         "Jump Game": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Jump-Game"
+//         },
+//         "Jump Game II": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Jump-Game-II"
+//         },
+//         "Gas Station": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Gas-Station"
+//         },
+//         "Hand of Straights": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Hand-of-Straights"
+//         },
+//         "Merge Triplets to Form Target Triplet": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Merge-Triplets-to-Form-Target-Triplet"
+//         },
+//         "Partition Labels": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Partition-Labels"
+//         },
+//         "Valid Parenthesis String": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Valid-Parenthesis-String"
+//         }
+//     },
+//     "Advanced Graphs": {
+//         "Min Cost to Connect All Points": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Min-Cost-to-Connect-All-Points"
+//         },
+//         "Network Delay Time": {
+//             "id": 206,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Network-Delay-Time"
+//         },
+//         "Cheapest Flights Within K Stops": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Cheapest-Flights-Within-K-Stops"
+//         },
+//         "Reconstruct Itinerary": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Reconstruct-Itinerary"
+//         },
+//         "Swim In Rising Water": {
+//             "id": 21,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Swim-In-Rising-Water"
+//         },
+//         "Alien Dictionary": {
+//             "id": 141,
+//             "difficulty": "Hard",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Alien-Dictionary"
+//         }
+//     },
+//     "Math & Geometry": {
+//         "Happy Number": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Happy-Number"
+//         },
+//         "Plus One": {
+//             "id": 206,
+//             "difficulty": "Easy",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Plus-One"
+//         },
+//         "Rotate Image": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Rotate-Image"
+//         },
+//         "Spiral Matrix": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Spiral-Matrix"
+//         },
+//         "Set Matrix Zeroes": {
+//             "id": 21,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Set-Matrix-Zeroes"
+//         },
+//         "Pow(x, n)": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Powx,-n"
+//         },
+//         "Multiply Strings": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Multiply-Strings"
+//         },
+//         "Detect Squares": {
+//             "id": 141,
+//             "difficulty": "Medium",
+//             "favorited": false,
+//             "checked": false,
+//             "url": "https://leetcode.com/problems/Detect-Squares"
+//         }
+//     },
+//     "Favorites":{
+        
+//     }
+// }
+
 export const problems = {
     "Arrays & Hashing": {
         "Contains Duplicate": {
@@ -2675,56 +3709,80 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Contains-Duplicate"
+            "url": "https://leetcode.com/problems/Contains-Duplicate",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Valid Anagram": {
             "id": 242,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Valid-Anagram"
+            "url": "https://leetcode.com/problems/Valid-Anagram",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Two Sum": {
             "id": 1,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Two-Sum"
+            "url": "https://leetcode.com/problems/Two-Sum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Group Anagrams": {
             "id": 49,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Group-Anagrams"
+            "url": "https://leetcode.com/problems/Group-Anagrams",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Top K Frequent Elements": {
             "id": 347,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Top-K-Frequent-Elements"
+            "url": "https://leetcode.com/problems/Top-K-Frequent-Elements",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Product of Array Except Self": {
             "id": 238,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Product-of-Array-Except-Self"
+            "url": "https://leetcode.com/problems/Product-of-Array-Except-Self",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Valid Sudoku": {
             "id": 36,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Valid-Sudoku"
+            "url": "https://leetcode.com/problems/Valid-Sudoku",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Consecutive Sequence": {
             "id": 128,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Consecutive-Sequence"
+            "url": "https://leetcode.com/problems/Longest-Consecutive-Sequence",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Two Pointers": {
@@ -2733,35 +3791,50 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Valid-Palindrome"
+            "url": "https://leetcode.com/problems/Valid-Palindrome",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Two Sum II - Input Array Is Sorted": {
             "id": 167,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Two-Sum-II-Input-Array-Is-Sorted"
+            "url": "https://leetcode.com/problems/Two-Sum-II-Input-Array-Is-Sorted",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "3Sum": {
             "id": 15,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/3Sum"
+            "url": "https://leetcode.com/problems/3Sum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Container With Most Water": {
             "id": 11,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Container-With-Most-Water"
+            "url": "https://leetcode.com/problems/Container-With-Most-Water",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Trapping Rain Water": {
             "id": 42,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Trapping-Rain-Water"
+            "url": "https://leetcode.com/problems/Trapping-Rain-Water",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Stack": {
@@ -2770,49 +3843,70 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Valid-Parentheses"
+            "url": "https://leetcode.com/problems/Valid-Parentheses",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Min Stack": {
             "id": 155,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Min-Stack"
+            "url": "https://leetcode.com/problems/Min-Stack",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Evaluate Reverse Polish Notation": {
             "id": 150,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Evaluate-Reverse-Polish-Notation"
+            "url": "https://leetcode.com/problems/Evaluate-Reverse-Polish-Notation",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Generate Parentheses": {
             "id": 22,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Generate-Parentheses"
+            "url": "https://leetcode.com/problems/Generate-Parentheses",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Car Fleet": {
             "id": 853,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Car-Fleet"
+            "url": "https://leetcode.com/problems/Car-Fleet",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Daily Temperatures": {
             "id": 739,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Daily-Temperatures"
+            "url": "https://leetcode.com/problems/Daily-Temperatures",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Largest Rectangle In Histogram": {
             "id": 84,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Largest-Rectangle-In-Histogram"
+            "url": "https://leetcode.com/problems/Largest-Rectangle-In-Histogram",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Binary Search": {
@@ -2821,49 +3915,70 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Binary-Search"
+            "url": "https://leetcode.com/problems/Binary-Search",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Search a 2D Matrix": {
             "id": 74,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Search-a-2D-Matrix"
+            "url": "https://leetcode.com/problems/Search-a-2D-Matrix",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Koko Eating Bananas": {
             "id": 875,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Koko-Eating-Bananas"
+            "url": "https://leetcode.com/problems/Koko-Eating-Bananas",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Find Minimum In Rotated Sorted Array": {
             "id": 153,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Find-Minimum-In-Rotated-Sorted-Array"
+            "url": "https://leetcode.com/problems/Find-Minimum-In-Rotated-Sorted-Array",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Search In Rotated Sorted Array": {
             "id": 33,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Search-In-Rotated-Sorted-Array"
+            "url": "https://leetcode.com/problems/Search-In-Rotated-Sorted-Array",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Time Based Key Value Store": {
             "id": 981,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Time-Based-Key-Value-Store"
+            "url": "https://leetcode.com/problems/Time-Based-Key-Value-Store",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Median of Two Sorted Arrays": {
             "id": 4,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Median-of-Two-Sorted-Arrays"
+            "url": "https://leetcode.com/problems/Median-of-Two-Sorted-Arrays",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Sliding Window": {
@@ -2872,42 +3987,60 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock"
+            "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Substring Without Repeating Characters": {
             "id": 3,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Substring-Without-Repeating-Characters"
+            "url": "https://leetcode.com/problems/Longest-Substring-Without-Repeating-Characters",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Repeating Character Replacement": {
             "id": 424,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Repeating-Character-Replacement"
+            "url": "https://leetcode.com/problems/Longest-Repeating-Character-Replacement",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Permutation In String": {
             "id": 567,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Permutation-In-String"
+            "url": "https://leetcode.com/problems/Permutation-In-String",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Minimum Window Substring": {
             "id": 76,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Minimum-Window-Substring"
+            "url": "https://leetcode.com/problems/Minimum-Window-Substring",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Sliding Window Maximum": {
             "id": 239,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Sliding-Window-Maximum"
+            "url": "https://leetcode.com/problems/Sliding-Window-Maximum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Linked List": {
@@ -2916,77 +4049,110 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Reverse-Linked-List"
+            "url": "https://leetcode.com/problems/Reverse-Linked-List",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Merge Two Sorted Lists": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Merge-Two-Sorted-Lists"
+            "url": "https://leetcode.com/problems/Merge-Two-Sorted-Lists",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Linked List Cycle": {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Linked-List-Cycle"
+            "url": "https://leetcode.com/problems/Linked-List-Cycle",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Reorder List": {
             "id": 143,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Reorder-List"
+            "url": "https://leetcode.com/problems/Reorder-List",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Remove Nth Node From End of List": {
             "id": 19,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Remove-Nth-Node-From-End-of-List"
+            "url": "https://leetcode.com/problems/Remove-Nth-Node-From-End-of-List",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Copy List With Random Pointer": {
             "id": 138,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Copy-List-With-Random-Pointer"
+            "url": "https://leetcode.com/problems/Copy-List-With-Random-Pointer",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Add Two Numbers": {
             "id": 2,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Add-Two-Numbers"
+            "url": "https://leetcode.com/problems/Add-Two-Numbers",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Find The Duplicate Number": {
             "id": 287,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Find-The-Duplicate-Number"
+            "url": "https://leetcode.com/problems/Find-The-Duplicate-Number",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "LRU Cache": {
             "id": 146,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/LRU-Cache"
+            "url": "https://leetcode.com/problems/LRU-Cache",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Merge K Sorted Lists": {
             "id": 23,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Merge-K-Sorted-Lists"
+            "url": "https://leetcode.com/problems/Merge-K-Sorted-Lists",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Reverse Nodes In K Group": {
             "id": 25,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Reverse-Nodes-In-K-Group"
+            "url": "https://leetcode.com/problems/Reverse-Nodes-In-K-Group",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Trees": {
@@ -2995,105 +4161,150 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Invert-Binary-Tree"
+            "url": "https://leetcode.com/problems/Invert-Binary-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Maximum Depth of Binary Tree": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Maximum-Depth-of-Binary-Tree"
+            "url": "https://leetcode.com/problems/Maximum-Depth-of-Binary-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Diameter of Binary Tree": {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Diameter-of-Binary-Tree"
+            "url": "https://leetcode.com/problems/Diameter-of-Binary-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Balanced Binary Tree": {
             "id": 143,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Balanced-Binary-Tree"
+            "url": "https://leetcode.com/problems/Balanced-Binary-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Same Tree": {
             "id": 19,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Same-Tree"
+            "url": "https://leetcode.com/problems/Same-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Subtree of Another Tree": {
             "id": 143,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Subtree-of-Another-Tree"
+            "url": "https://leetcode.com/problems/Subtree-of-Another-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Lowest Common Ancestor of a Binary Search Tree": {
             "id": 138,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Lowest-Common-Ancestor-of-a-Binary-Search-Tree"
+            "url": "https://leetcode.com/problems/Lowest-Common-Ancestor-of-a-Binary-Search-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Binary Tree Level Order Traversal": {
             "id": 2,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Binary-Tree-Level-Order-Traversal"
+            "url": "https://leetcode.com/problems/Binary-Tree-Level-Order-Traversal",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Binary Tree Right Side View": {
             "id": 287,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Binary-Tree-Right-Side-View"
+            "url": "https://leetcode.com/problems/Binary-Tree-Right-Side-View",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Count Good Nodes In Binary Tree": {
             "id": 146,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Count-Good-Nodes-In-Binary-Tree"
+            "url": "https://leetcode.com/problems/Count-Good-Nodes-In-Binary-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Validate Binary Search Tree": {
             "id": 23,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Validate-Binary-Search-Tree"
+            "url": "https://leetcode.com/problems/Validate-Binary-Search-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Kth Smallest Element In a Bst": {
             "id": 25,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Kth-Smallest-Element-In-a-Bst"
+            "url": "https://leetcode.com/problems/Kth-Smallest-Element-In-a-Bst",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Construct Binary Tree From Preorder And Inorder Traversal": {
             "id": 146,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal"
+            "url": "https://leetcode.com/problems/Construct-Binary-Tree-From-Preorder-And-Inorder-Traversal",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Binary Tree Maximum Path Sum": {
             "id": 23,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Binary-Tree-Maximum-Path-Sum"
+            "url": "https://leetcode.com/problems/Binary-Tree-Maximum-Path-Sum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Serialize And Deserialize Binary Tree": {
             "id": 25,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Serialize-And-Deserialize-Binary-Tree"
+            "url": "https://leetcode.com/problems/Serialize-And-Deserialize-Binary-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Tries": {
@@ -3102,21 +4313,30 @@ export const problems = {
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Implement-Trie-Prefix-Tree"
+            "url": "https://leetcode.com/problems/Implement-Trie-Prefix-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Design Add And Search Words Data Structure": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Design-Add-And-Search-Words-Data-Structure"
+            "url": "https://leetcode.com/problems/Design-Add-And-Search-Words-Data-Structure",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Word Search II": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Word-Search-II"
+            "url": "https://leetcode.com/problems/Word-Search-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Backtracking": {
@@ -3125,63 +4345,90 @@ export const problems = {
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Subsets"
+            "url": "https://leetcode.com/problems/Subsets",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Combination Sum": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Combination-Sum"
+            "url": "https://leetcode.com/problems/Combination-Sum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Permutations": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Permutations"
+            "url": "https://leetcode.com/problems/Permutations",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Subsets II": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Subsets-II"
+            "url": "https://leetcode.com/problems/Subsets-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Combination Sum II": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Combination-Sum-II"
+            "url": "https://leetcode.com/problems/Combination-Sum-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Word Search": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Word-Search"
+            "url": "https://leetcode.com/problems/Word-Search",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Palindrome Partitioning": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Palindrome-Partitioning"
+            "url": "https://leetcode.com/problems/Palindrome-Partitioning",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Letter Combinations of a Phone Number": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Letter-Combinations-of-a-Phone-Number"
+            "url": "https://leetcode.com/problems/Letter-Combinations-of-a-Phone-Number",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "N Queens": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/N-Queens"
+            "url": "https://leetcode.com/problems/N-Queens",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Graphs": {
@@ -3190,91 +4437,130 @@ export const problems = {
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Number-of-Islands"
+            "url": "https://leetcode.com/problems/Number-of-Islands",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Clone Graph": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Clone-Graph"
+            "url": "https://leetcode.com/problems/Clone-Graph",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Max Area of Island": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Max-Area-of-Island"
+            "url": "https://leetcode.com/problems/Max-Area-of-Island",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Pacific Atlantic Water Flow": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Pacific-Atlantic-Water-Flow"
+            "url": "https://leetcode.com/problems/Pacific-Atlantic-Water-Flow",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Surrounded Regions": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Surrounded-Regions"
+            "url": "https://leetcode.com/problems/Surrounded-Regions",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Rotting Oranges": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Rotting-Oranges"
+            "url": "https://leetcode.com/problems/Rotting-Oranges",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Walls And Gates": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Walls-And-Gates"
+            "url": "https://leetcode.com/problems/Walls-And-Gates",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Course Schedule": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Course-Schedule"
+            "url": "https://leetcode.com/problems/Course-Schedule",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Course Schedule II": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Course-Schedule-II"
+            "url": "https://leetcode.com/problems/Course-Schedule-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Redundant Connection": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Redundant-Connection"
+            "url": "https://leetcode.com/problems/Redundant-Connection",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Number of Connected Components In An Undirected Graph": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Number-of-Connected-Components-In-An-Undirected-Graph"
+            "url": "https://leetcode.com/problems/Number-of-Connected-Components-In-An-Undirected-Graph",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Graph Valid Tree": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Graph-Valid-Tree"
+            "url": "https://leetcode.com/problems/Graph-Valid-Tree",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Word Ladder": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Word-Ladder"
+            "url": "https://leetcode.com/problems/Word-Ladder",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Dynamic Programming": {
@@ -3283,84 +4569,120 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Climbing-Stairs"
+            "url": "https://leetcode.com/problems/Climbing-Stairs",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Min Cost Climbing Stairs": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Min-Cost-Climbing-Stairs"
+            "url": "https://leetcode.com/problems/Min-Cost-Climbing-Stairs",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "House Robber": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/House-Robber"
+            "url": "https://leetcode.com/problems/House-Robber",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "House Robber II": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/House-Robber-II"
+            "url": "https://leetcode.com/problems/House-Robber-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Palindromic Substring": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Palindromic-Substring"
+            "url": "https://leetcode.com/problems/Longest-Palindromic-Substring",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Palindromic Substrings": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Palindromic-Substrings"
+            "url": "https://leetcode.com/problems/Palindromic-Substrings",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Decode Ways": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Decode-Ways"
+            "url": "https://leetcode.com/problems/Decode-Ways",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Coin Change": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Coin-Change"
+            "url": "https://leetcode.com/problems/Coin-Change",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Maximum Product Subarray": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Maximum-Product-Subarray"
+            "url": "https://leetcode.com/problems/Maximum-Product-Subarray",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Word Break": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Word-Break"
+            "url": "https://leetcode.com/problems/Word-Break",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Increasing Subsequence": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Increasing-Subsequence"
+            "url": "https://leetcode.com/problems/Longest-Increasing-Subsequence",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Partition Equal Subset Sum": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Partition-Equal-Subset-Sum"
+            "url": "https://leetcode.com/problems/Partition-Equal-Subset-Sum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "2D Dynamic Programming": {
@@ -3369,77 +4691,110 @@ export const problems = {
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Unique-Paths"
+            "url": "https://leetcode.com/problems/Unique-Paths",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Common Subsequence": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Common-Subsequence"
+            "url": "https://leetcode.com/problems/Longest-Common-Subsequence",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Best Time to Buy And Sell Stock With Cooldown": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock-With-Cooldown"
+            "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock-With-Cooldown",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Coin Change II": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Coin-Change-II"
+            "url": "https://leetcode.com/problems/Coin-Change-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Target Sum": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Target-Sum"
+            "url": "https://leetcode.com/problems/Target-Sum",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Interleaving String": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Interleaving-String"
+            "url": "https://leetcode.com/problems/Interleaving-String",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Longest Increasing Path In a Matrix": {
             "id": 206,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Longest-Increasing-Path-In-a-Matrix"
+            "url": "https://leetcode.com/problems/Longest-Increasing-Path-In-a-Matrix",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Distinct Subsequences": {
             "id": 21,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Distinct-Subsequences"
+            "url": "https://leetcode.com/problems/Distinct-Subsequences",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Edit Distance": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Edit-Distance"
+            "url": "https://leetcode.com/problems/Edit-Distance",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Burst Balloons": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Burst-Balloons"
+            "url": "https://leetcode.com/problems/Burst-Balloons",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Regular Expression Matching": {
             "id": 206,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Regular-Expression-Matching"
+            "url": "https://leetcode.com/problems/Regular-Expression-Matching",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Bit Manipulation": {
@@ -3448,49 +4803,70 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Single-Number"
+            "url": "https://leetcode.com/problems/Single-Number",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Number of 1 Bits": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Number-of-1-Bits"
+            "url": "https://leetcode.com/problems/Number-of-1-Bits",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Counting Bits": {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Counting-Bits"
+            "url": "https://leetcode.com/problems/Counting-Bits",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Reverse Bits": {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Reverse-Bits"
+            "url": "https://leetcode.com/problems/Reverse-Bits",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Missing Number": {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Missing-Number"
+            "url": "https://leetcode.com/problems/Missing-Number",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Sum of Two Integers": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Sum-of-Two-Integers"
+            "url": "https://leetcode.com/problems/Sum-of-Two-Integers",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Reverse Integer": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Reverse-Integer"
+            "url": "https://leetcode.com/problems/Reverse-Integer",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Intervals": {
@@ -3499,42 +4875,60 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Meeting-Rooms"
+            "url": "https://leetcode.com/problems/Meeting-Rooms",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Insert Interval": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Insert-Interval"
+            "url": "https://leetcode.com/problems/Insert-Interval",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Merge Intervals": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Merge-Intervals"
+            "url": "https://leetcode.com/problems/Merge-Intervals",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Non Overlapping Intervals": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Non-Overlapping-Intervals"
+            "url": "https://leetcode.com/problems/Non-Overlapping-Intervals",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Meeting Rooms II": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Meeting-Rooms-II"
+            "url": "https://leetcode.com/problems/Meeting-Rooms-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Minimum Interval to Include Each Query": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Minimum-Interval-to-Include-Each-Query"
+            "url": "https://leetcode.com/problems/Minimum-Interval-to-Include-Each-Query",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Greedy": {
@@ -3543,56 +4937,80 @@ export const problems = {
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Maximum-Subarray"
+            "url": "https://leetcode.com/problems/Maximum-Subarray",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Jump Game": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Jump-Game"
+            "url": "https://leetcode.com/problems/Jump-Game",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Jump Game II": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Jump-Game-II"
+            "url": "https://leetcode.com/problems/Jump-Game-II",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Gas Station": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Gas-Station"
+            "url": "https://leetcode.com/problems/Gas-Station",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Hand of Straights": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Hand-of-Straights"
+            "url": "https://leetcode.com/problems/Hand-of-Straights",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Merge Triplets to Form Target Triplet": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Merge-Triplets-to-Form-Target-Triplet"
+            "url": "https://leetcode.com/problems/Merge-Triplets-to-Form-Target-Triplet",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Partition Labels": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Partition-Labels"
+            "url": "https://leetcode.com/problems/Partition-Labels",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Valid Parenthesis String": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Valid-Parenthesis-String"
+            "url": "https://leetcode.com/problems/Valid-Parenthesis-String",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Advanced Graphs": {
@@ -3601,42 +5019,60 @@ export const problems = {
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Min-Cost-to-Connect-All-Points"
+            "url": "https://leetcode.com/problems/Min-Cost-to-Connect-All-Points",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Network Delay Time": {
             "id": 206,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Network-Delay-Time"
+            "url": "https://leetcode.com/problems/Network-Delay-Time",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Cheapest Flights Within K Stops": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Cheapest-Flights-Within-K-Stops"
+            "url": "https://leetcode.com/problems/Cheapest-Flights-Within-K-Stops",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Reconstruct Itinerary": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Reconstruct-Itinerary"
+            "url": "https://leetcode.com/problems/Reconstruct-Itinerary",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Swim In Rising Water": {
             "id": 21,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Swim-In-Rising-Water"
+            "url": "https://leetcode.com/problems/Swim-In-Rising-Water",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Alien Dictionary": {
             "id": 141,
             "difficulty": "Hard",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Alien-Dictionary"
+            "url": "https://leetcode.com/problems/Alien-Dictionary",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
     "Math & Geometry": {
@@ -3645,61 +5081,83 @@ export const problems = {
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Happy-Number"
+            "url": "https://leetcode.com/problems/Happy-Number",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Plus One": {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Plus-One"
+            "url": "https://leetcode.com/problems/Plus-One",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Rotate Image": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Rotate-Image"
+            "url": "https://leetcode.com/problems/Rotate-Image",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Spiral Matrix": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Spiral-Matrix"
+            "url": "https://leetcode.com/problems/Spiral-Matrix",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Set Matrix Zeroes": {
             "id": 21,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Set-Matrix-Zeroes"
+            "url": "https://leetcode.com/problems/Set-Matrix-Zeroes",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Pow(x, n)": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Powx,-n"
+            "url": "https://leetcode.com/problems/Powx,-n",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Multiply Strings": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Multiply-Strings"
+            "url": "https://leetcode.com/problems/Multiply-Strings",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         },
         "Detect Squares": {
             "id": 141,
             "difficulty": "Medium",
             "favorited": false,
             "checked": false,
-            "url": "https://leetcode.com/problems/Detect-Squares"
+            "url": "https://leetcode.com/problems/Detect-Squares",
+            "code": {
+                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()"
+            }
         }
     },
-    "Favorites":{
-        
-    }
+    "Favorites": {}
 }
 
 // functions used to add properties to problems, in case you need to add more in future
@@ -3716,3 +5174,12 @@ function addProperties(propertyName, value){
     console.log(problems);
     }
 
+addProperties("code", {"python": `def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+ans = collections.defaultdict(list)
+
+for s in strs:
+    count = [0] * 26
+    for c in s:
+        count[ord(c) - ord("a")] += 1
+    ans[tuple(count)].append(s)
+return ans.values()`});
