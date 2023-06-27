@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import CategoriesBar from './components/CategoriesBar'
-import ProblemTable from './components/ProblemTable'
+import CategoriesBar from './components/CategoriesBar/CategoriesBar'
+import ProblemTable from './components/ProblemTable/ProblemTable'
 import { problems } from './data/problems'
-import ShowProblem from './components/ShowProblem'
+import ShowProblem from './components/ShowProblem/ShowProblem'
 
 
 function App() {

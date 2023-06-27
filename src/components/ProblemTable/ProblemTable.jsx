@@ -2,7 +2,7 @@ import './ProblemTable.css';
 // import { problems } from '../data/problems';
 import { FaStar } from 'react-icons/fa';
 import { BsFillCheckSquareFill } from 'react-icons/bs';
-import ProgressBar from './ProgressBar';
+import ProgressBar from '../ProgressBar/ProgressBar';
 
 
 export default function ProblemTable(props){

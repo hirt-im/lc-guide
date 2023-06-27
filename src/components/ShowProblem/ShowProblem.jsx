@@ -1,4 +1,4 @@
-import { problems } from "../data/problems";
+import { problems } from '../../data/problems';
 // import { AiOutlineStar } from 'react-icons/fa'
 import { FaStar } from 'react-icons/fa';
 import { IoArrowBack } from 'react-icons/io5'
