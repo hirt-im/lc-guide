@@ -51,10 +51,6 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
                 problem={problem}
                 setProblemSet={props.setProblemSet}
             />
-            {/* <p>{lorem}</p>
-            <p>{lorem}</p>
-            <p>{lorem}</p>
-            <p>{lorem}</p> */}
         </div>
     );
 }
