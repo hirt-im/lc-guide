@@ -16,7 +16,26 @@ export default function Notes(props){
 
     const [notes, setNotes] = useState(props.problem.notes)
 
+    // go through linese and set focus to first empty one
+    console.log(notes);
+
+    function handleKeyDown(e){
+        console.log(e.keyCode);
+        if (e.keyCode === 13){
+            addNote();
+            e.preventDefault();
+            // e.target.nextElementSibling.focus();
+        }
+        console.log(e.target.nextElementSibling);
+    }
+
     function editNote(e){
+        // console.log(e.keyCode);
+        // if(e.nativeEvent.inputType === "insertParagraph"){
+        //     e.target.nextElementSibling.focus();
+        //     return;
+        // }
+        console.log('test');
         props.problem.notes[e.target.id] = e.target.innerText
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
     }
@@ -44,7 +63,7 @@ export default function Notes(props){
         <div className='notes-container'>
             <ul className='notes-list'>
                 {props.problem.notes.map((bullet, index) => (
-                    <li id={index} contenteditable="true" onInput={editNote}>{bullet}</li>
+                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote}>{bullet}</li>
                 ))}
             </ul>
 
