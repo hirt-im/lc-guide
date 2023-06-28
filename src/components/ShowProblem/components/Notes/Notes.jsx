@@ -50,10 +50,12 @@ export default function Notes(props){
 
             <div className='button-group'>
                 <button className='add-button' onClick={addNote}>
-                    <IoMdAdd />
+                    {/* <IoMdAdd /> */}
+                    New Line
                 </button>
                 <button className='delete-button' onClick={removeNote}>
-                    <RiSubtractLine />
+                    {/* <RiSubtractLine /> */}
+                    Remove Line
                 </button>
             </div>
         </div>

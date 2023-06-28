@@ -57,7 +57,14 @@
 
     /* border-top-left-radius: 5px; 
     border-top-right-radius: 5px;  */
+}
 
+.button-group button:focus{
+    outline: none;
+}
+
+.button-group button{
+    /* border-radius: 0; */
 }
 
 
