@@ -1,5 +1,4 @@
-1. Editable bullet point Notes
-2. Ability to save edited code 
+1. Add checkbox to showProblem
 
 
 
