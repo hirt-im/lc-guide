@@ -43,7 +43,15 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
                 <FaStar className='fav-icon' onClick={favoriteProblem} size="2.3vh" color={(props.problemSet[props.category][problemName].favorited ? 'rgb(255, 212, 23)' : null)} />
             </div>
             <h1><a href={problem.url} target="_blank">{problemName}</a></h1>
-            <Notes />
+            
+            <Notes 
+                problemSet={props.problemSet} 
+                category={props.category} 
+                problemName={problemName} 
+                problem={problem}
+                setProblemSet={props.setProblemSet}
+            />
+
             <Code 
                 problemSet={props.problemSet} 
                 category={props.category} 
