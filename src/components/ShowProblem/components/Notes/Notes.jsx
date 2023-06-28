@@ -31,6 +31,7 @@ export default function Notes(props){
     }
 
     function removeNote(){
+        if (props.problem.notes.length == 1){return;}
         let newNotes = [...props.problem.notes]
         newNotes.pop();
         props.problem.notes = newNotes;

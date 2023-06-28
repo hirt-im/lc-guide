@@ -42,6 +42,7 @@
 }
 
 
+
 .button-group{
     /* align-self: flex-start; */
     display: flex;
@@ -51,8 +52,11 @@
     width: 100%;
     gap: 10px;
     /* border-radius: 5px; */
-    /* border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; */
+    /* border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px;  */
+
+    /* border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;  */
 
 }
 
