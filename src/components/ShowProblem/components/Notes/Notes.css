@@ -4,12 +4,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 75%;
+    border-radius: 5px;
+
 }
 
 
 .notes-list {
     list-style-type: disc;
     padding: 0;
+    width: 100%;
+}
+
+li{
+    text-align: left;
+    list-style-type: disc;
+}
+
+li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
