@@ -34,12 +34,23 @@ let testProblem =  {
 
 
 export default function Code(props){
+    console.log(props.problem);
+
+    function onChange(newValue){
+        let problem = props.problemSet[props.category][props.problemName];
+        console.log(props.problemSet)
+
+        problem.code.python = newValue;
+        console.log(props.problemSet)
+        localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
+
+    }
 
     return(
         <AceEditor
             mode="python"
             theme="monokai"
-            // onChange={onChange}
+            onChange={onChange}
             // readOnly={true}
             name="code"
             // editorProps={{ $blockScrolling: true }}
