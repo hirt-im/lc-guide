@@ -16,7 +16,6 @@ export default function Notes(props){
 
     const [notes, setNotes] = useState(props.problem.notes)
 
-    
     function editNote(e){
         props.problem.notes[e.target.id] = e.target.innerText
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));

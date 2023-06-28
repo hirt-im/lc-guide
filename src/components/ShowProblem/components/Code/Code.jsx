@@ -37,7 +37,8 @@ export default function Code(props){
     console.log(props.problem);
 
     function onChange(newValue){
-        let problem = props.problemSet[props.category][props.problemName];
+        // let problem = props.problemSet[props.category][props.problemName];
+        let problem = props.problem;
         problem.code.python = newValue;
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
         console.log(props.problemSet)
