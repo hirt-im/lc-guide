@@ -41,6 +41,16 @@
     border-bottom-right-radius: 5px; */
 }
 
+.notes-list li:hover{
+    outline: none;
+    border: none;
+}
+
+.notes-list li:focus{
+    outline: none;
+    border: none;
+}
+
 
 
 .button-group{

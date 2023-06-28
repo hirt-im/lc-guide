@@ -16,8 +16,15 @@ export default function Notes(props){
 
     const [notes, setNotes] = useState(props.problem.notes)
 
-    // go through linese and set focus to first empty one
-    console.log(notes);
+    // go through lines and set focus to first empty one
+    let focusedIndex = 0;
+    notes.findLast((note, index) => {
+        if(note === ""){
+            focusedIndex = index;
+            
+        }
+    })
+    console.log(focusedIndex);
 
     function handleKeyDown(e){
         console.log(e.keyCode);
@@ -63,7 +70,7 @@ export default function Notes(props){
         <div className='notes-container'>
             <ul className='notes-list'>
                 {props.problem.notes.map((bullet, index) => (
-                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote}>{bullet}</li>
+                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote} autoFocus={index == 2}>{bullet}</li>
                 ))}
             </ul>
 
