@@ -19,6 +19,7 @@
     list-style-type: disc;
     list-style-position: inside;
     color: red;
+    margin-bottom: 0;
 }
 
 .notes-list li{
@@ -36,8 +37,23 @@
 }
 
 .notes-list li:last-child{
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+}
+
+
+.button-group{
+    /* align-self: flex-start; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30,30,30);
+    width: 100%;
+    gap: 10px;
+    /* border-radius: 5px; */
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+
 }
 
 
