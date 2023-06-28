@@ -75,7 +75,7 @@ export default function Notes(props){
         <div className='notes-container'>
             <ul className='notes-list'>
                 {props.problem.notes.map((bullet, index) => (
-                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote} autoFocus={index == 2}>{bullet}</li>
+                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote}>{bullet}</li>
                 ))}
             </ul>
 
