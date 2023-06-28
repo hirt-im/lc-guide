@@ -92,3 +92,6 @@ export default function Notes(props){
         </div>
     );
 }
+
+
+// solution: use hidden extra li element?
