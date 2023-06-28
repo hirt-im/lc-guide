@@ -38,12 +38,9 @@ export default function Code(props){
 
     function onChange(newValue){
         let problem = props.problemSet[props.category][props.problemName];
-        console.log(props.problemSet)
-
         problem.code.python = newValue;
-        console.log(props.problemSet)
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
-
+        console.log(props.problemSet)
     }
 
     return(
