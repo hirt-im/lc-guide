@@ -24,7 +24,7 @@ export default function Notes(props){
 
     function addNote(){
         let newNotes = [...props.problem.notes]
-        newNotes.push('Edit notes')
+        newNotes.push('')
         props.problem.notes = newNotes;
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
         setNotes(newNotes);

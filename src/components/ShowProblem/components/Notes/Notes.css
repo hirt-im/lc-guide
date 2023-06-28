@@ -1,8 +1,18 @@
 .notes-container{
     /* align-self: flex-start; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .notes-list {
     list-style-type: disc;
-  }
+    padding: 0;
+}
+
+
+  /* li:empty:after {
+    content: "This is the template for your input";
+} */
