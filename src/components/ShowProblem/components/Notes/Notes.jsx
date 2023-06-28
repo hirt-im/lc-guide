@@ -31,9 +31,14 @@ export default function Notes(props){
         if (e.keyCode === 13){
             addNote();
             e.preventDefault();
+            
             // e.target.nextElementSibling.focus();
         }
-        console.log(e.target.nextElementSibling);
+
+        else if (e.keyCode === 8 && e.target.innerText === ""){
+            removeNote();
+        }
+        // console.log(e.target.nextElementSibling);
     }
 
     function editNote(e){
