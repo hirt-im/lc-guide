@@ -60,3 +60,8 @@ export default function Code(props){
         />
     );
 }
+
+
+// have selection menu for language
+// on select, it changes "mode" and "value"
+    // props.problem.code.{language}
