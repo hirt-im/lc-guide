@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@400;500&display=swap');
 
 #code{
     /* border-radius: 5px; */
@@ -17,7 +18,7 @@
     height: 20px;
     position: absolute;
     top: 0;
-    right: 5px;
+    right: 10px;
 }
 
 .code-container{
@@ -27,5 +28,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.language-select{
+    font-family: Rubik, sans-serif;
+    background-color: rgb(30,30,30);
+    color: white;
+    border-radius: 5px;
 }
 
