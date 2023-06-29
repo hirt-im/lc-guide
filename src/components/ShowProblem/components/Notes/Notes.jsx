@@ -40,6 +40,13 @@ export default function Notes(props){
                 e.preventDefault();
             }
         }
+
+        // on 'tab' key press
+        else if (e.keyCode === 9){
+            if(parseInt(e.target.id) === notes.length - 1){
+                e.preventDefault();
+            }
+        }
     }
 
 
