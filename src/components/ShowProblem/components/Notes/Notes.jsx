@@ -2,6 +2,8 @@ import { IoMdAdd } from 'react-icons/io';
 import { RiSubtractLine } from 'react-icons/ri';
 import './Notes.css';
 import { useState, useEffect } from 'react';
+import getCursorPosition from './getCursorPosition';
+
 
 
 
@@ -21,6 +23,9 @@ export default function Notes(props){
         // on 'enter' key press
         if (e.keyCode === 13){
             let index = parseInt(e.target.id) + 1;
+            if (getCursorPosition(e.target) == 0){
+                index -= 1;
+            }
             addNote(index);
             setFocusID(index);
             e.preventDefault();
