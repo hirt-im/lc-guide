@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { render } from "react-dom";
 import AceEditor from "react-ace";
 import './Code.css';
 
-import "ace-builds/src-noconflict/mode-java";
+import "ace-builds/src-noconflict/mode-javascript";
 import "ace-builds/src-noconflict/mode-python"
 import "ace-builds/src-noconflict/theme-github";
 import 'ace-builds/src-noconflict/theme-monokai'; 
@@ -31,9 +31,22 @@ let testProblem =  {
     }
 }
 
+function LanguageSelector(){
+    return(
+        <select value={selectedLanguage} onChange={onChange}>
+        {languages.map(language => (
+            <option key={language.value} value={language.value}>
+            {language.label}
+            </option>
+        ))}
+        </select>
+    );
+}
+
 
 
 export default function Code(props){
+    const [language, setLanguage] = useState("python");
     console.log(props.problem);
 
     function onChange(newValue){
@@ -44,20 +57,37 @@ export default function Code(props){
         console.log(props.problemSet)
     }
 
+    function selectLanguage(e){
+        console.log(e);
+        setLanguage(e.target.value);
+    }
+
     return(
-        <AceEditor
-            mode="python"
-            theme="monokai"
-            onChange={onChange}
-            // readOnly={true}
-            name="code"
-            // editorProps={{ $blockScrolling: true }}
-            value={props.problem.code.python}
-            width="75%"
-            height="50%"
-            fontSize={"1.1em"}
-            showPrintMargin={false}
-        />
+        <div className='code-editor'>
+            <div className='code-container'>
+                <AceEditor
+                        mode={language}
+                        theme="monokai"
+                        onChange={onChange}
+                        // readOnly={true}
+                        name="code"
+                        // editorProps={{ $blockScrolling: true }}
+                        value={props.problem.code.python}
+                        width="100%"
+                        height="100%"
+                        fontSize={"1.1em"}
+                        showPrintMargin={false}
+                    />
+
+                <select value={language} className="language-select" onChange={selectLanguage}>
+                    <option value="python">python</option>
+                    <option value="javascript">javascript</option>
+                </select>
+            </div>
+              
+
+        </div>
+      
     );
 }
 
