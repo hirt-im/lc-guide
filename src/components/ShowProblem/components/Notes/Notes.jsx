@@ -1,7 +1,7 @@
 import { IoMdAdd } from 'react-icons/io';
 import { RiSubtractLine } from 'react-icons/ri';
 import './Notes.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
@@ -17,19 +17,36 @@ export default function Notes(props){
     const [notes, setNotes] = useState(props.problem.notes)
 
     // go through lines and set focus to first empty one
-    let focusedIndex = 0;
-    notes.findLast((note, index) => {
-        if(note === ""){
-            focusedIndex = index;
-            
-        }
+    // let focusedIndex = 0;
+    // notes.findLast((note, index) => {
+    //     if(note === ""){
+    //         focusedIndex = index;
+    //     }
+    // })
+    // console.log(focusedIndex);
+
+
+
+    useEffect(() => {
+        let lastBlankIndex = 0;
+        notes.findLast((note, index) => {
+            if(note === ""){
+                lastBlankIndex = index;  
+            }
+        })
+        let numNotes = notes.length;
+
+        let focusedIndex = Math.max(lastBlankIndex, numNotes - 1);
+        let liToFocus = document.getElementById(focusedIndex.toString());
+        liToFocus.focus();
+        console.log(liToFocus);
     })
-    console.log(focusedIndex);
 
     function handleKeyDown(e){
-        console.log(e.keyCode);
+        console.log(e.target.id);
+        let id = e.target.id;
         if (e.keyCode === 13){
-            addNote();
+            addNote(parseInt(id) + 1);
             e.preventDefault();
             
             // e.target.nextElementSibling.focus();
@@ -52,10 +69,15 @@ export default function Notes(props){
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
     }
 
-    function addNote(){
-        if(notes[notes.length - 1] == ""){return;}
+    function addNote(index){
+        // if(notes[notes.length - 1] == ""){return;}
+
+        console.log(notes, index, notes[index])
+        // if(notes[index] == ""){return;}
+
         let newNotes = [...props.problem.notes]
-        newNotes.push('')
+        // newNotes.push('')
+        newNotes.splice(index, 0, '');
         props.problem.notes = newNotes;
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
         setNotes(newNotes);
@@ -76,7 +98,7 @@ export default function Notes(props){
         <div className='notes-container'>
             <ul className='notes-list'>
                 {props.problem.notes.map((bullet, index) => (
-                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote}>{bullet}</li>
+                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote} autoFocus>{bullet}</li>
                 ))}
             </ul>
 
