@@ -53,6 +53,7 @@ export default function Notes(props){
     }
 
     function addNote(){
+        if(notes[notes.length - 1] == ""){return;}
         let newNotes = [...props.problem.notes]
         newNotes.push('')
         props.problem.notes = newNotes;
@@ -81,14 +82,13 @@ export default function Notes(props){
 
             <div className='button-group'>
                 <button className='add-button' onClick={addNote}>
-                    {/* <IoMdAdd /> */}
                     New Line
                 </button>
                 <button className='delete-button' onClick={removeNote}>
-                    {/* <RiSubtractLine /> */}
                     Remove Line
                 </button>
             </div>
+            
         </div>
     );
 }
