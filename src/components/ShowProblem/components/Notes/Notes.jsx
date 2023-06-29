@@ -43,19 +43,29 @@ export default function Notes(props){
     })
 
     function handleKeyDown(e){
-        console.log(e.target.id);
-        let id = e.target.id;
+
+        // on 'enter' key press
         if (e.keyCode === 13){
-            addNote(parseInt(id) + 1);
+            addNote(parseInt(e.target.id) + 1);
             e.preventDefault();
-            
-            // e.target.nextElementSibling.focus();
         }
 
+        // on 'backspace' key press
         else if (e.keyCode === 8 && e.target.innerText === ""){
             removeNote();
+            e.preventDefault();
         }
-        // console.log(e.target.nextElementSibling);
+    }
+
+
+    // moves cursor to end of text on focus
+    function handleFocus(e){
+        let range = document.createRange();
+        let selection = window.getSelection();
+        range.selectNodeContents(e.target);
+        range.collapse(false);
+        selection.removeAllRanges();
+        selection.addRange(range);
     }
 
     function editNote(e){
@@ -98,7 +108,7 @@ export default function Notes(props){
         <div className='notes-container'>
             <ul className='notes-list'>
                 {props.problem.notes.map((bullet, index) => (
-                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote} autoFocus>{bullet}</li>
+                    <li id={index} contenteditable="true" onKeyDown={handleKeyDown} onInput={editNote} onFocus={handleFocus}>{bullet}</li>
                 ))}
             </ul>
 
