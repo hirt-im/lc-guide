@@ -52,7 +52,7 @@ export default function Notes(props){
 
         // on 'backspace' key press
         else if (e.keyCode === 8 && e.target.innerText === ""){
-            removeNote();
+            removeNote(parseInt(e.target.id));
             e.preventDefault();
         }
     }
@@ -94,10 +94,10 @@ export default function Notes(props){
         console.log(props.problem.notes)
     }
 
-    function removeNote(){
+    function removeNote(index){
         if (props.problem.notes.length == 1){return;}
         let newNotes = [...props.problem.notes]
-        newNotes.pop();
+        newNotes.splice(index, 1);
         props.problem.notes = newNotes;
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
         setNotes(newNotes);
