@@ -5,49 +5,17 @@ import { useState, useEffect } from 'react';
 
 
 
-let testNotes = ['this is the first test bullet point',
-'this is the second test bullet point',
-'this is the third test bullet point',
-'this is the fourth test bullet point',
-'and so on' 
-];
 
 export default function Notes(props){
 
     const [notes, setNotes] = useState(props.problem.notes)
     const [focusID, setFocusID] = useState(0);
 
-    // go through lines and set focus to first empty one
-    // let focusedIndex = 0;
-    // notes.findLast((note, index) => {
-    //     if(note === ""){
-    //         focusedIndex = index;
-    //     }
-    // })
-    // console.log(focusedIndex);
-
-
 
     useEffect(() => {
-        // let lastBlankIndex = 0;
-        // notes.findLast((note, index) => {
-        //     if(note === ""){
-        //         lastBlankIndex = index;  
-        //     }
-        // })
-        // let numNotes = notes.length;
-
-        // let focusedIndex = Math.max(lastBlankIndex, numNotes - 1);
-        // let liToFocus = document.getElementById(focusedIndex.toString());
-        // liToFocus.focus();
-        // console.log(liToFocus);
-
         document.getElementById(focusID).focus();
-
-
-
-
     })
+
 
     function handleKeyDown(e){
 
@@ -82,24 +50,12 @@ export default function Notes(props){
     }
 
     function editNote(e){
-        // console.log(e.keyCode);
-        // if(e.nativeEvent.inputType === "insertParagraph"){
-        //     e.target.nextElementSibling.focus();
-        //     return;
-        // }
-        console.log('test');
         props.problem.notes[e.target.id] = e.target.innerText
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
     }
 
     function addNote(index){
-        // if(notes[notes.length - 1] == ""){return;}
-
-        console.log(notes, index, notes[index])
-        // if(notes[index] == ""){return;}
-
         let newNotes = [...props.problem.notes]
-        // newNotes.push('')
         newNotes.splice(index, 0, '');
         props.problem.notes = newNotes;
         localStorage.setItem('problemSet', JSON.stringify(props.problemSet));
@@ -108,8 +64,6 @@ export default function Notes(props){
     }
 
     function removeNote(index){
-        // if (index == 0){return;}
-        // if (props.problem.notes.length == 1){return;}
         let newNotes = [...props.problem.notes]
         newNotes.splice(index, 1);
         props.problem.notes = newNotes;
@@ -140,4 +94,4 @@ export default function Notes(props){
 }
 
 
-// solution: use hidden extra li element?
+// TODO: if cursor is at start of line, add new line above it 
