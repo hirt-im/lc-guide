@@ -112,14 +112,14 @@ export default function Notes(props){
                 ))}
             </ul>
 
-            <div className='button-group'>
+            {/* <div className='button-group'>
                 <button className='add-button' onClick={addNote}>
                     New Line
                 </button>
                 <button className='delete-button' onClick={removeNote}>
                     Remove Line
                 </button>
-            </div>
+            </div> */}
             
         </div>
     );
