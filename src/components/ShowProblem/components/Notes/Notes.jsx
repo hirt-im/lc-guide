@@ -15,6 +15,7 @@ let testNotes = ['this is the first test bullet point',
 export default function Notes(props){
 
     const [notes, setNotes] = useState(props.problem.notes)
+    const [focusID, setFocusID] = useState(0);
 
     // go through lines and set focus to first empty one
     // let focusedIndex = 0;
@@ -28,32 +29,44 @@ export default function Notes(props){
 
 
     useEffect(() => {
-        let lastBlankIndex = 0;
-        notes.findLast((note, index) => {
-            if(note === ""){
-                lastBlankIndex = index;  
-            }
-        })
-        let numNotes = notes.length;
+        // let lastBlankIndex = 0;
+        // notes.findLast((note, index) => {
+        //     if(note === ""){
+        //         lastBlankIndex = index;  
+        //     }
+        // })
+        // let numNotes = notes.length;
 
-        let focusedIndex = Math.max(lastBlankIndex, numNotes - 1);
-        let liToFocus = document.getElementById(focusedIndex.toString());
-        liToFocus.focus();
-        console.log(liToFocus);
+        // let focusedIndex = Math.max(lastBlankIndex, numNotes - 1);
+        // let liToFocus = document.getElementById(focusedIndex.toString());
+        // liToFocus.focus();
+        // console.log(liToFocus);
+
+        document.getElementById(focusID).focus();
+
+
+
+
     })
 
     function handleKeyDown(e){
 
         // on 'enter' key press
         if (e.keyCode === 13){
-            addNote(parseInt(e.target.id) + 1);
+            let index = parseInt(e.target.id) + 1;
+            addNote(index);
+            setFocusID(index);
             e.preventDefault();
         }
 
         // on 'backspace' key press
         else if (e.keyCode === 8 && e.target.innerText === ""){
-            removeNote(parseInt(e.target.id));
-            e.preventDefault();
+            let index = parseInt(e.target.id);
+            if (notes.length != 1){
+                removeNote(index);
+                (index == 0 ? setFocusID(0) : setFocusID(index - 1));
+                e.preventDefault();
+            }
         }
     }
 
@@ -95,7 +108,8 @@ export default function Notes(props){
     }
 
     function removeNote(index){
-        if (props.problem.notes.length == 1){return;}
+        // if (index == 0){return;}
+        // if (props.problem.notes.length == 1){return;}
         let newNotes = [...props.problem.notes]
         newNotes.splice(index, 1);
         props.problem.notes = newNotes;
