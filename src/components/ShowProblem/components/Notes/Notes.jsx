@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 
 
 
-
 export default function Notes(props){
 
     const [notes, setNotes] = useState(props.problem.notes)
@@ -93,5 +92,3 @@ export default function Notes(props){
     );
 }
 
-
-// TODO: if cursor is at start of line, add new line above it 
