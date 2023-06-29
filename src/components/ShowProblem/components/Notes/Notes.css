@@ -25,6 +25,9 @@
 .notes-list li{
     text-align: left;
     list-style-type: disc;
+
+    right: 20px;
+    padding-left: 22px;
 }
 
 .notes-list li::marker{
