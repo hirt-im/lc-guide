@@ -41,7 +41,7 @@ export default function Code(props){
                     // editorProps={{ $blockScrolling: true }}
                     value={props.problem.code[language]}
                     width="100%"
-                    height="100%"
+                    height="75vh"
                     fontSize={"1.1em"}
                     showPrintMargin={false}
                 />
