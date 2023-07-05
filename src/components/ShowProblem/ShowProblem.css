@@ -3,7 +3,7 @@
 
 .show-problem-container{
     height: 100%;
-    width: 75%;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
