@@ -126,7 +126,7 @@ export const problems = {
             "checked": true,
             "url": "https://leetcode.com/problems/Valid-Palindrome",
             "code": {
-                "python": "class Solution:\r\n    def isPalindrome(self, s: str) -> bool:\r\n        l = 0\r\n        r = len(s) - 1\r\n\r\n        while l <= r:\r\n            if not s[l].isalnum():\r\n                l += 1\r\n                continue\r\n            if not s[r].isalnum():\r\n                r -= 1\r\n                continue\r\n            \r\n            if s[l].lower() != s[r].lower():\r\n                return False\r\n\r\n            l += 1\r\n            r -= 1\r\n            \r\n        return True\r\n",
+                "python": "class Solution:\r\n    def isPalindrome(self, s: str) -> bool:\r\n        l = 0\r\n        r = len(s) - 1\r\n\r\n        while l <= r:\r\n            if not s[l].isalnum():\r\n                l += 1\r\n                continue\r\n            if not s[r].isalnum():\r\n                r -= 1\r\n                continue\r\n            \r\n            if s[l].lower() != s[r].lower():\r\n                return False\r\n\r\n            l += 1\r\n            r -= 1\r\n            \r\n        return True\r\n        \r\n# Time: O(n)\r\n# Space: O(1)\r\n",
                 "javascript": "let array = [];\narray.forEach(element =>{\n    element += 1;\n})\nreturn array;"
             },
             "notes": [
@@ -2036,6 +2036,7 @@ export const problems = {
     },
     "Favorites": {}
 }
+
 
 // functions used to add properties to problems, in case you need to add more in future
 function addProperties(propertyName, value){
