@@ -1,5 +1,4 @@
 1. Add checkbox to showProblem
-2. Remove scrollbars
-3. Improve styling
+2. Make styling consistent across laptop and desktop
 
 
