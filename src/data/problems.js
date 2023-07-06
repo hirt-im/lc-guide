@@ -201,11 +201,14 @@ export const problems = {
             "checked": false,
             "url": "https://leetcode.com/problems/Valid-Parentheses",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "class Solution:\r\n    def isValid(self, s: str) -> bool:\r\n        stack = []\r\n        map = {')': '(', '}': '{', ']': '['}\r\n\r\n        for c in s:\r\n            # if it is open, it can be added to the stack\r\n            if c not in map:\r\n                stack.append(c)\r\n                continue\r\n            \r\n            # top of stack must be open counterpart, otherwise they would be closing in the incorrect order\r\n            if stack and stack[-1] == map[c]:\r\n                stack.pop()\r\n                \r\n            else:\r\n                return False\r\n        \r\n        #if stack is empty, it means all open parentheses were closed in the correct order and the string is valid\r\n        return not stack\r\n\r\n# Time: O(n)\r\n# Space: O(n)",
                 "javascript": "javascript code goes here"
             },
             "notes": [
-                ""
+                "map closed parentheses to open counterpart",
+                "iterate through string, if char is an open parenthesis, it can be added to stack",
+                "if it is closed, the stack must not be empty, and the last element must be the open counterpart",
+                "at the end, the stack must be empty"
             ]
         },
         "Min Stack": {
