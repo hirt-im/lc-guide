@@ -198,7 +198,7 @@ export const problems = {
             "id": 20,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Valid-Parentheses",
             "code": {
                 "python": "class Solution:\r\n    def isValid(self, s: str) -> bool:\r\n        stack = []\r\n        map = {')': '(', '}': '{', ']': '['}\r\n\r\n        for c in s:\r\n            # if it is open, it can be added to the stack\r\n            if c not in map:\r\n                stack.append(c)\r\n                continue\r\n            \r\n            # top of stack must be open counterpart, otherwise they would be closing in the incorrect order\r\n            if stack and stack[-1] == map[c]:\r\n                stack.pop()\r\n                \r\n            else:\r\n                return False\r\n        \r\n        #if stack is empty, it means all open parentheses were closed in the correct order and the string is valid\r\n        return not stack\r\n\r\n# Time: O(n)\r\n# Space: O(n)",
@@ -301,14 +301,14 @@ export const problems = {
             "id": 704,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Binary-Search",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "class Solution:\r\n    def search(self, nums: List[int], target: int) -> int:\r\n        l = 0\r\n        r = len(nums) - 1\r\n\r\n        while l <= r:\r\n            mid = (l + r) // 2  # mid = l + ((r - l) // 2) can be used to avoid overflow in other languages\r\n            if target > nums[mid]:\r\n                l = mid + 1\r\n            elif target < nums[mid]:\r\n                r = mid - 1\r\n            else:\r\n                return mid\r\n        \r\n        return -1\r\n        \r\n# Time: O(logn)\r\n# Space: O(1)",
                 "javascript": "javascript code goes here"
             },
             "notes": [
-                ""
+                "do binary search"
             ]
         },
         "Search a 2D Matrix": {
