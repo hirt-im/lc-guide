@@ -49,6 +49,8 @@ let lorem = 'Lorem ipsum dolor sit amet, consecties mi eget mauris pharetra et u
                 problem={problem}
             />
 
+            <div className='connect'></div>
+
             <Code 
                 problemSet={props.problemSet} 
                 problem={problem}
