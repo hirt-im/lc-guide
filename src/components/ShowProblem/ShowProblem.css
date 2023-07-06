@@ -22,6 +22,10 @@
     overflow: auto;
 }
 
+.show-problem-container::-webkit-scrollbar {
+    display: none;
+}
+
 .back-button{
     position: absolute;
     top: -2px;
