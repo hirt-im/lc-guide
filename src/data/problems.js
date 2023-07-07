@@ -493,7 +493,7 @@ export const problems = {
             "checked": true,
             "url": "https://leetcode.com/problems/Reverse-Linked-List",
             "code": {
-                "python": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, val=0, next=None):\r\n#         self.val = val\r\n#         self.next = next\r\nclass Solution:\r\n    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:\r\n        prev = None\r\n        curr = head\r\n\r\n        while curr:\r\n            temp = curr.next\r\n            curr.next = prev\r\n            prev = curr\r\n            curr = temp\r\n        \r\n        return prev\r\n\r\n    ",
+                "python": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, val=0, next=None):\r\n#         self.val = val\r\n#         self.next = next\r\nclass Solution:\r\n    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:\r\n        prev = None\r\n        curr = head\r\n\r\n        while curr:\r\n            temp = curr.next\r\n            curr.next = prev\r\n            prev = curr\r\n            curr = temp\r\n        \r\n        return prev\r\n        \r\n# Time: O(n)\r\n# Space: O(1)\r\n    ",
                 "javascript": "javascript code goes here"
             },
             "notes": [
@@ -508,14 +508,18 @@ export const problems = {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Merge-Two-Sorted-Lists",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, val=0, next=None):\r\n#         self.val = val\r\n#         self.next = next\r\nclass Solution:\r\n    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:\r\n        dummy = ListNode()\r\n        tail = dummy\r\n\r\n        while list1 and list2:\r\n            if list1.val <= list2.val:\r\n                tail.next = list1\r\n                list1 = list1.next\r\n            else:\r\n                tail.next = list2\r\n                list2 = list2.next\r\n            tail = tail.next\r\n            \r\n        # there is no need to iterate through remaining part of list, because the node contains the rest of the list\r\n        # i.e. when you attach list1 node to end of merged list, the remaining part of list1 is also attached\r\n        if list1:\r\n            tail.next = list1\r\n        elif list2:\r\n            tail.next = list2\r\n        \r\n        return dummy.next\r\n        \r\n# Time: O(n)\r\n# Space: O(1)",
                 "javascript": "javascript code goes here"
             },
             "notes": [
-                ""
+                "create dummy node to use as start of new merged list, to return the head at the end",
+                "create tail variable as pointer to end of new merged list",
+                "iterate through both lists, comparing values and attaching lowest value to the tail",
+                "move tail pointer to new tail",
+                "at the end, either list1 or list2 may have more nodes, simply attach them to end of new list"
             ]
         },
         "Linked List Cycle": {
@@ -2047,7 +2051,6 @@ export const problems = {
     },
     "Favorites": {}
 }
-
 // functions used to add properties to problems, in case you need to add more in future
 function addProperties(propertyName, value){
     for (let category in problems){
