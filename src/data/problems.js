@@ -526,14 +526,16 @@ export const problems = {
             "id": 141,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Linked-List-Cycle",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution:\r\n    def hasCycle(self, head: Optional[ListNode]) -> bool:\r\n        nodes = {}\r\n        index = 0\r\n        while head:\r\n            if head not in nodes:\r\n                nodes[head] = index\r\n            else:\r\n                return True\r\n            head = head.next\r\n        return False\r\n        \r\n# Time: O(n)\r\n# Space: O(n)",
                 "javascript": "javascript code goes here"
             },
             "notes": [
-                ""
+                "use hashmap to keep track of seen nodes",
+                "iterate through linked list, if the current node isn't in the hashmap, add it",
+                "if it is in the map, that means we have looped around in the list and come to a node we have already seen"
             ]
         },
         "Reorder List": {
@@ -2051,6 +2053,10 @@ export const problems = {
     },
     "Favorites": {}
 }
+
+
+
+
 // functions used to add properties to problems, in case you need to add more in future
 function addProperties(propertyName, value){
     for (let category in problems){
