@@ -490,14 +490,18 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Reverse-Linked-List",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, val=0, next=None):\r\n#         self.val = val\r\n#         self.next = next\r\nclass Solution:\r\n    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:\r\n        prev = None\r\n        curr = head\r\n\r\n        while curr:\r\n            temp = curr.next\r\n            curr.next = prev\r\n            prev = curr\r\n            curr = temp\r\n        \r\n        return prev\r\n\r\n    ",
                 "javascript": "javascript code goes here"
             },
             "notes": [
-                ""
+                "declare prev and curr variables to keep track of nodes",
+                "go through linked list, using temp variable to keep track of curr.next while you change curr.next to prev node",
+                "set prev to curr for next iteration",
+                "set curr to temp to move along linked list",
+                "at the end, curr is set to None and prev is the head of the reversed linked list"
             ]
         },
         "Merge Two Sorted Lists": {
@@ -650,10 +654,11 @@ export const problems = {
             "url": "https://leetcode.com/problems/Invert-Binary-Tree",
             "code": {
                 "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
-                "javascript": "javascript code goes here"
+                "javascript": "let i = 0;"
             },
             "notes": [
-                ""
+                "throglksdf",
+                "dfd"
             ]
         },
         "Maximum Depth of Binary Tree": {
@@ -2042,7 +2047,6 @@ export const problems = {
     },
     "Favorites": {}
 }
-
 
 // functions used to add properties to problems, in case you need to add more in future
 function addProperties(propertyName, value){
