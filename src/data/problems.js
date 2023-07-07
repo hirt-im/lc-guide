@@ -401,14 +401,17 @@ export const problems = {
             "id": 121,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Best-Time-to-Buy-And-Sell-Stock",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "class Solution:\r\n    def maxProfit(self, prices: List[int]) -> int:\r\n        maxProfit = 0\r\n        buy = 0\r\n        sell = 1\r\n\r\n        while sell <= len(prices) - 1:\r\n            currProfit = prices[sell] - prices[buy]\r\n            maxProfit = max(maxProfit, currProfit)\r\n\r\n            if prices[sell] < prices[buy]:\r\n                buy = sell\r\n            \r\n            sell += 1\r\n        \r\n        return maxProfit\r\n\r\n# Time: O(n)\r\n# Space: O(1)",
                 "javascript": "javascript code goes here"
             },
             "notes": [
-                ""
+                "have pointers for indices of buy and sell prices",
+                "go through list, calculate profit with current pointers, set maxProfit to the larger value of currProfit and maxProfit",
+                "if the current sell price is lower than the buy price, then set the buy price to that price, as you want the lowest buy price possible to maximize profit",
+                "move sell pointer, return maxProfit at the end"
             ]
         },
         "Longest Substring Without Repeating Characters": {
