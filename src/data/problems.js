@@ -656,15 +656,14 @@ export const problems = {
             "id": 206,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Invert-Binary-Tree",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, val=0, left=None, right=None):\r\n#         self.val = val\r\n#         self.left = left\r\n#         self.right = right\r\nclass Solution:\r\n    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:\r\n        if not root:\r\n            return None\r\n        \r\n        temp = root.left\r\n        root.left = root.right\r\n        root.right = temp\r\n\r\n        self.invertTree(root.left)\r\n        self.invertTree(root.right)\r\n\r\n        return root",
                 "javascript": "let i = 0;"
             },
             "notes": [
-                "throglksdf",
-                "dfd"
+                "recursively swap each node's children"
             ]
         },
         "Maximum Depth of Binary Tree": {
