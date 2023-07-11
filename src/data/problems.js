@@ -670,10 +670,10 @@ export const problems = {
             "id": 21,
             "difficulty": "Easy",
             "favorited": false,
-            "checked": false,
+            "checked": true,
             "url": "https://leetcode.com/problems/Maximum-Depth-of-Binary-Tree",
             "code": {
-                "python": "def groupAnagrams(self, strs: List[str]) -> List[List[str]]:\nans = collections.defaultdict(list)\n\nfor s in strs:\n    count = [0] * 26\n    for c in s:\n        count[ord(c) - ord(\"a\")] += 1\n    ans[tuple(count)].append(s)\nreturn ans.values()",
+                "python": "# Definition for a binary tree node.\r\n# class TreeNode:\r\n#     def __init__(self, val=0, left=None, right=None):\r\n#         self.val = val\r\n#         self.left = left\r\n#         self.right = right\r\nclass Solution:\r\n    def maxDepth(self, root: Optional[TreeNode]) -> int:\r\n        if not root:\r\n            return 0\r\n        return 1 + max(self.maxDepth(root.right), self.maxDepth(root.left))\r\n        \r\n# Time: O(n)\r\n# Space: O(1)",
                 "javascript": "javascript code goes here"
             },
             "notes": [
