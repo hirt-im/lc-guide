@@ -68,7 +68,7 @@ export default function ProblemTable(props){
                             // <tr className={props.problemSet[props.category][key].difficulty}>
                             <tr>
                                 <td className='fav-column' style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <FaStar className='fav-icon' onClick={favoriteProblem} color={(props.problemSet[props.category][problem].favorited ? 'rgb(255, 212, 23)' : null)} size='60%'/>
+                                    <FaStar className='fav-icon' onClick={favoriteProblem} color={(props.problemSet[props.category][problem].favorited ? 'rgb(255, 212, 23)' : null)} size='40%'/>
                                 </td>
 
                                 <td className={props.problemSet[props.category][problem].difficulty + ' ' + 'problem-column'} onClick={selectProblem}>
@@ -76,7 +76,7 @@ export default function ProblemTable(props){
                                 </td>
 
                                 <td className='check-column' style={{ textAlign: 'center', verticalAlign: 'middle' }} >
-                                    <BsFillCheckSquareFill className='check-icon' onClick={checkProblem} color={(props.problemSet[props.category][problem].checked ? 'rgb(136, 221, 26)' : null)} size='60%'/>
+                                    <BsFillCheckSquareFill className='check-icon' onClick={checkProblem} color={(props.problemSet[props.category][problem].checked ? 'rgb(136, 221, 26)' : null)} size='40%'/>
                                 </td>
                                 {/* <td className='diff-col'>{props.problemSet[props.category][key].difficulty}</td> */}
                             </tr>
