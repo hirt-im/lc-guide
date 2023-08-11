@@ -154,6 +154,10 @@
 
 .problem-table .fav-column, .problem-table .check-column{
   width: 7%;
-  /* height: 100%; */
 }
 
+
+/* .check-column, .fav-column{
+  height: 50;
+  width: 200px;
+} */
